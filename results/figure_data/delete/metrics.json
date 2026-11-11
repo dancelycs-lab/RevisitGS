@@ -1,0 +1,18 @@
+{
+  "dataset": "clsplats",
+  "name": "delete",
+  "camera": "0001",
+  "psnr": [
+    49.947694405360664,
+    50.53331652705053,
+    55.2479829812321,
+    54.66285783174986
+  ],
+  "comparison": "same backend setting; direct final-stream renders; full-view PSNR",
+  "stream_mib": [
+    1.2922554016113281,
+    1.2553844451904297,
+    1.6482000350952148,
+    1.4973268508911133
+  ]
+}

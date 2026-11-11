@@ -1,0 +1,402 @@
+{
+  "scenes": [
+    {
+      "dataset": "CL-Splats",
+      "scene": "add",
+      "records": [
+        {
+          "method": "FlexGaussian",
+          "point": "prune_0.2_sh_0.3",
+          "bytes": 3144879,
+          "rate_bpg": 238.13790949275432,
+          "mean_psnr_db": 26.602989574908023,
+          "median_psnr_db": 26.72097634062596,
+          "mean_ssim": 0.9780984902381897
+        },
+        {
+          "method": "FlexGaussian",
+          "point": "prune_0.4_sh_0.4",
+          "bytes": 2075799,
+          "rate_bpg": 157.18456398072863,
+          "mean_psnr_db": 25.774142163033893,
+          "median_psnr_db": 25.830709068078367,
+          "mean_ssim": 0.9761700248718261
+        },
+        {
+          "method": "FlexGaussian",
+          "point": "prune_0.6_sh_0.4",
+          "bytes": 871457,
+          "rate_bpg": 65.98884987079859,
+          "mean_psnr_db": 24.63946889710749,
+          "median_psnr_db": 24.673981678924637,
+          "mean_ssim": 0.9716766953468323
+        },
+        {
+          "method": "FlexGaussian",
+          "point": "prune_0.9_sh_0.1",
+          "bytes": 348337,
+          "rate_bpg": 26.37692737271531,
+          "mean_psnr_db": 21.267562675977892,
+          "median_psnr_db": 21.123372979233487,
+          "mean_ssim": 0.9540868425369262
+        },
+        {
+          "method": "GSCodec",
+          "point": "rp1",
+          "bytes": 1534314,
+          "rate_bpg": 116.18199888309402,
+          "mean_psnr_db": 32.44349692738003,
+          "median_psnr_db": 32.3009389749393,
+          "mean_ssim": 0.9860374665260315
+        }
+      ]
+    },
+    {
+      "dataset": "CL-Splats",
+      "scene": "delete",
+      "records": [
+        {
+          "method": "FlexGaussian",
+          "point": "prune_0.2_sh_0.3",
+          "bytes": 3066379,
+          "rate_bpg": 237.91127921637087,
+          "mean_psnr_db": 29.888109514813745,
+          "median_psnr_db": 29.827756000243788,
+          "mean_ssim": 0.9831321573257447
+        },
+        {
+          "method": "FlexGaussian",
+          "point": "prune_0.4_sh_0.4",
+          "bytes": 2050427,
+          "rate_bpg": 159.0865677431869,
+          "mean_psnr_db": 29.233531686493226,
+          "median_psnr_db": 29.230677442696518,
+          "mean_ssim": 0.9818460059165954
+        },
+        {
+          "method": "FlexGaussian",
+          "point": "prune_0.6_sh_0.4",
+          "bytes": 854213,
+          "rate_bpg": 66.27586073125788,
+          "mean_psnr_db": 27.81439727067808,
+          "median_psnr_db": 27.775266038333232,
+          "mean_ssim": 0.9788085269927979
+        },
+        {
+          "method": "FlexGaussian",
+          "point": "prune_0.9_sh_0.1",
+          "bytes": 344285,
+          "rate_bpg": 26.712055086800504,
+          "mean_psnr_db": 23.596826806373787,
+          "median_psnr_db": 23.556501039618382,
+          "mean_ssim": 0.9656607842445374
+        },
+        {
+          "method": "GSCodec",
+          "point": "rp1",
+          "bytes": 1477418,
+          "rate_bpg": 114.62849384152847,
+          "mean_psnr_db": 32.40493474978673,
+          "median_psnr_db": 32.238807460128925,
+          "mean_ssim": 0.9865697050094604
+        }
+      ]
+    },
+    {
+      "dataset": "CL-Splats",
+      "scene": "move",
+      "records": [
+        {
+          "method": "FlexGaussian",
+          "point": "prune_0.2_sh_0.3",
+          "bytes": 2936819,
+          "rate_bpg": 242.86786991668217,
+          "mean_psnr_db": 32.96114094326235,
+          "median_psnr_db": 32.668800855198896,
+          "mean_ssim": 0.9879004621505737
+        },
+        {
+          "method": "FlexGaussian",
+          "point": "prune_0.4_sh_0.4",
+          "bytes": 1943251,
+          "rate_bpg": 160.70218528396288,
+          "mean_psnr_db": 30.20465221468457,
+          "median_psnr_db": 29.96148019812552,
+          "mean_ssim": 0.9850503230094909
+        },
+        {
+          "method": "FlexGaussian",
+          "point": "prune_0.6_sh_0.4",
+          "bytes": 812437,
+          "rate_bpg": 67.18658644999897,
+          "mean_psnr_db": 25.42747563890534,
+          "median_psnr_db": 25.52635248953787,
+          "mean_ssim": 0.9758325505256653
+        },
+        {
+          "method": "FlexGaussian",
+          "point": "prune_0.9_sh_0.1",
+          "bytes": 333085,
+          "rate_bpg": 27.545328619570387,
+          "mean_psnr_db": 21.279316813344032,
+          "median_psnr_db": 21.151695584199913,
+          "mean_ssim": 0.9541301965713501
+        },
+        {
+          "method": "GSCodec",
+          "point": "rp1",
+          "bytes": 1422884,
+          "rate_bpg": 117.669085571337,
+          "mean_psnr_db": 33.1651210141343,
+          "median_psnr_db": 32.63319938641531,
+          "mean_ssim": 0.9875406122207642
+        }
+      ]
+    },
+    {
+      "dataset": "CL-Splats",
+      "scene": "multi",
+      "records": [
+        {
+          "method": "FlexGaussian",
+          "point": "prune_0.2_sh_0.3",
+          "bytes": 2848551,
+          "rate_bpg": 243.89323173081038,
+          "mean_psnr_db": 32.462270194475394,
+          "median_psnr_db": 32.08016717526131,
+          "mean_ssim": 0.9875063586235047
+        },
+        {
+          "method": "FlexGaussian",
+          "point": "prune_0.4_sh_0.4",
+          "bytes": 1910559,
+          "rate_bpg": 163.582259514534,
+          "mean_psnr_db": 30.098195222901687,
+          "median_psnr_db": 29.990027963411443,
+          "mean_ssim": 0.9849778652191162
+        },
+        {
+          "method": "FlexGaussian",
+          "point": "prune_0.6_sh_0.4",
+          "bytes": 790305,
+          "rate_bpg": 67.66599597585513,
+          "mean_psnr_db": 25.10962665671584,
+          "median_psnr_db": 25.163602188525736,
+          "mean_ssim": 0.9752196502685547
+        },
+        {
+          "method": "FlexGaussian",
+          "point": "prune_0.9_sh_0.1",
+          "bytes": 327809,
+          "rate_bpg": 28.067040541119056,
+          "mean_psnr_db": 21.25868764277517,
+          "median_psnr_db": 21.154438913947544,
+          "mean_ssim": 0.9547407817840576
+        },
+        {
+          "method": "GSCodec",
+          "point": "rp1",
+          "bytes": 1372064,
+          "rate_bpg": 117.47626182627681,
+          "mean_psnr_db": 32.687684889766636,
+          "median_psnr_db": 32.28264106330816,
+          "mean_ssim": 0.9871923851966858
+        }
+      ]
+    },
+    {
+      "dataset": "ScanNet-GSReg",
+      "scene": "scene0312_00",
+      "records": [
+        {
+          "method": "FlexGaussian",
+          "point": "prune_0.2_sh_0.3",
+          "bytes": 16345067,
+          "rate_bpg": 202.59539188785098,
+          "mean_psnr_db": 40.78036015553908,
+          "mean_ssim": 0.9869092851877213
+        },
+        {
+          "method": "FlexGaussian",
+          "point": "prune_0.4_sh_0.4",
+          "bytes": 9849707,
+          "rate_bpg": 122.08608564562685,
+          "mean_psnr_db": 35.948774149968656,
+          "mean_ssim": 0.969634547829628
+        },
+        {
+          "method": "FlexGaussian",
+          "point": "prune_0.6_sh_0.4",
+          "bytes": 4434069,
+          "rate_bpg": 54.9598203979691,
+          "mean_psnr_db": 28.999869226833187,
+          "mean_ssim": 0.9248039126396179
+        },
+        {
+          "method": "FlexGaussian",
+          "point": "prune_0.9_sh_0.1",
+          "bytes": 1239021,
+          "rate_bpg": 15.357535399045902,
+          "mean_psnr_db": 21.278604242435584,
+          "mean_ssim": 0.7826900035142899
+        },
+        {
+          "method": "GSCodec",
+          "point": "rp1",
+          "bytes": 7263081,
+          "rate_bpg": 90.02512755121803,
+          "mean_psnr_db": 35.370262906554956,
+          "mean_ssim": 0.9708739966154099
+        }
+      ]
+    },
+    {
+      "dataset": "ScanNet-GSReg",
+      "scene": "scene0547_00",
+      "records": [
+        {
+          "method": "FlexGaussian",
+          "point": "prune_0.2_sh_0.3",
+          "bytes": 12235195,
+          "rate_bpg": 205.06829914186108,
+          "mean_psnr_db": 40.46363446282332,
+          "mean_ssim": 0.988198310136795
+        },
+        {
+          "method": "FlexGaussian",
+          "point": "prune_0.4_sh_0.4",
+          "bytes": 7420803,
+          "rate_bpg": 124.37655872888173,
+          "mean_psnr_db": 37.06575019079275,
+          "mean_ssim": 0.9787750542163849
+        },
+        {
+          "method": "FlexGaussian",
+          "point": "prune_0.6_sh_0.4",
+          "bytes": 3324133,
+          "rate_bpg": 55.71421627782247,
+          "mean_psnr_db": 30.201876579035893,
+          "mean_ssim": 0.9343555569648743
+        },
+        {
+          "method": "FlexGaussian",
+          "point": "prune_0.9_sh_0.1",
+          "bytes": 961045,
+          "rate_bpg": 16.107619334942346,
+          "mean_psnr_db": 22.893007186235014,
+          "mean_ssim": 0.8324018716812134
+        },
+        {
+          "method": "GSCodec",
+          "point": "rp1",
+          "bytes": 5345352,
+          "rate_bpg": 89.5909090909091,
+          "mean_psnr_db": 34.59735102825191,
+          "mean_ssim": 0.9656471461057663
+        }
+      ]
+    },
+    {
+      "dataset": "ScanNet-GSReg",
+      "scene": "scene0596_02",
+      "records": [
+        {
+          "method": "FlexGaussian",
+          "point": "prune_0.2_sh_0.3",
+          "bytes": 7278051,
+          "rate_bpg": 211.2779789681474,
+          "mean_psnr_db": 41.01286444321727,
+          "mean_ssim": 0.9819101840257645
+        },
+        {
+          "method": "FlexGaussian",
+          "point": "prune_0.4_sh_0.4",
+          "bytes": 4523195,
+          "rate_bpg": 131.30596337932084,
+          "mean_psnr_db": 36.69817058054117,
+          "mean_ssim": 0.9678354561328888
+        },
+        {
+          "method": "FlexGaussian",
+          "point": "prune_0.6_sh_0.4",
+          "bytes": 1993061,
+          "rate_bpg": 57.85750883584559,
+          "mean_psnr_db": 26.831222241295418,
+          "mean_ssim": 0.9253944009542465
+        },
+        {
+          "method": "FlexGaussian",
+          "point": "prune_0.9_sh_0.1",
+          "bytes": 628277,
+          "rate_bpg": 18.238549687570305,
+          "mean_psnr_db": 22.434452465913775,
+          "mean_ssim": 0.7997777760028839
+        },
+        {
+          "method": "GSCodec",
+          "point": "rp1",
+          "bytes": 3023273,
+          "rate_bpg": 87.76401942071688,
+          "mean_psnr_db": 33.23596231466243,
+          "mean_ssim": 0.9724608808755875
+        }
+      ]
+    }
+  ],
+  "means": {
+    "CL-Splats": {
+      "FlexGaussian:prune_0.2_sh_0.3": {
+        "rate_bpg": 240.70257258915444,
+        "psnr_db": 30.47862755686488,
+        "ssim": 0.9841593670845032
+      },
+      "FlexGaussian:prune_0.4_sh_0.4": {
+        "rate_bpg": 160.1388941306031,
+        "psnr_db": 28.827630321778344,
+        "ssim": 0.9820110547542572
+      },
+      "FlexGaussian:prune_0.6_sh_0.4": {
+        "rate_bpg": 66.77932325697765,
+        "psnr_db": 25.747742115851686,
+        "ssim": 0.9753843557834625
+      },
+      "FlexGaussian:prune_0.9_sh_0.1": {
+        "rate_bpg": 27.175337905051315,
+        "psnr_db": 21.85059848461772,
+        "ssim": 0.9571546512842178
+      },
+      "GSCodec:rp1": {
+        "rate_bpg": 116.48896003055907,
+        "psnr_db": 32.67530939526692,
+        "ssim": 0.9868350422382355
+      }
+    },
+    "ScanNet-GSReg": {
+      "FlexGaussian:prune_0.2_sh_0.3": {
+        "rate_bpg": 206.3138899992865,
+        "psnr_db": 40.75228635385989,
+        "ssim": 0.9856725931167603
+      },
+      "FlexGaussian:prune_0.4_sh_0.4": {
+        "rate_bpg": 125.92286925127648,
+        "psnr_db": 36.57089830710086,
+        "ssim": 0.9720816860596339
+      },
+      "FlexGaussian:prune_0.6_sh_0.4": {
+        "rate_bpg": 56.17718183721239,
+        "psnr_db": 28.6776560157215,
+        "ssim": 0.9281846235195795
+      },
+      "FlexGaussian:prune_0.9_sh_0.1": {
+        "rate_bpg": 16.56790147385285,
+        "psnr_db": 22.20202129819479,
+        "ssim": 0.8049565503994623
+      },
+      "GSCodec:rp1": {
+        "rate_bpg": 89.12668535428134,
+        "psnr_db": 34.40119208315643,
+        "ssim": 0.9696606745322546
+      }
+    }
+  }
+}

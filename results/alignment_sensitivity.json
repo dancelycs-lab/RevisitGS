@@ -1,0 +1,142 @@
+{
+  "experiment": "held-out actual-bitstream alignment sensitivity",
+  "codec": "fixed 50% assignment, mixed q4/q8 core, FCGS birth lambda=0.0004",
+  "pairs": 3,
+  "by_condition": {
+    "mild": {
+      "pairs": 3,
+      "mean_rate_change_percent": 0.01986514146995466,
+      "maximum_absolute_rate_change_percent": 0.0798474003203653,
+      "mean_psnr_change_db": -0.15680761873249338,
+      "minimum_psnr_change_db": -0.5868891886443421,
+      "mean_ssim_change": -9.01023546854655e-05
+    },
+    "moderate": {
+      "pairs": 3,
+      "mean_rate_change_percent": 0.03470759831386191,
+      "maximum_absolute_rate_change_percent": 0.1641156068102223,
+      "mean_psnr_change_db": -0.15963347872950115,
+      "minimum_psnr_change_db": -0.6594509365326289,
+      "mean_ssim_change": -0.00010194877783457439
+    }
+  },
+  "rows": [
+    {
+      "pair": 15,
+      "condition": "exact",
+      "rotation_degrees": 0.0,
+      "translation_percent_extent": 0.0,
+      "scale_percent": 0.0,
+      "bytes": 1832245,
+      "psnr_db": 42.587423866456106,
+      "ssim": 0.9900265485048294,
+      "rate_change_vs_exact_percent": 0.0,
+      "psnr_change_vs_exact_db": 0.0,
+      "ssim_change_vs_exact": 0.0
+    },
+    {
+      "pair": 15,
+      "condition": "mild",
+      "rotation_degrees": 0.5,
+      "translation_percent_extent": 0.25,
+      "scale_percent": 0.5,
+      "bytes": 1833708,
+      "psnr_db": 42.63065369421619,
+      "ssim": 0.9900528937578201,
+      "rate_change_vs_exact_percent": 0.0798474003203653,
+      "psnr_change_vs_exact_db": 0.04322982776008644,
+      "ssim_change_vs_exact": 2.6345252990722656e-05
+    },
+    {
+      "pair": 15,
+      "condition": "moderate",
+      "rotation_degrees": 1.0,
+      "translation_percent_extent": 0.5,
+      "scale_percent": 1.0,
+      "bytes": 1835252,
+      "psnr_db": 42.66975808106464,
+      "ssim": 0.9900557547807693,
+      "rate_change_vs_exact_percent": 0.1641156068102223,
+      "psnr_change_vs_exact_db": 0.08233421460853663,
+      "ssim_change_vs_exact": 2.9206275939941406e-05
+    },
+    {
+      "pair": 22,
+      "condition": "exact",
+      "rotation_degrees": 0.0,
+      "translation_percent_extent": 0.0,
+      "scale_percent": 0.0,
+      "bytes": 14784249,
+      "psnr_db": 36.53736221759938,
+      "ssim": 0.9955054521560669,
+      "rate_change_vs_exact_percent": 0.0,
+      "psnr_change_vs_exact_db": 0.0,
+      "ssim_change_vs_exact": 0.0
+    },
+    {
+      "pair": 22,
+      "condition": "mild",
+      "rotation_degrees": 0.5,
+      "translation_percent_extent": 0.25,
+      "scale_percent": 0.5,
+      "bytes": 14783067,
+      "psnr_db": 36.610598722286156,
+      "ssim": 0.995399609208107,
+      "rate_change_vs_exact_percent": -0.007994995214166689,
+      "psnr_change_vs_exact_db": 0.07323650468677556,
+      "ssim_change_vs_exact": -0.0001058429479598999
+    },
+    {
+      "pair": 22,
+      "condition": "moderate",
+      "rotation_degrees": 1.0,
+      "translation_percent_extent": 0.5,
+      "scale_percent": 1.0,
+      "bytes": 14781773,
+      "psnr_db": 36.63557850333497,
+      "ssim": 0.9954639673233032,
+      "rate_change_vs_exact_percent": -0.016747553426621486,
+      "psnr_change_vs_exact_db": 0.09821628573558883,
+      "ssim_change_vs_exact": -4.1484832763671875e-05
+    },
+    {
+      "pair": 32,
+      "condition": "exact",
+      "rotation_degrees": 0.0,
+      "translation_percent_extent": 0.0,
+      "scale_percent": 0.0,
+      "bytes": 8819464,
+      "psnr_db": 39.75562503444156,
+      "ssim": 0.9902866035699844,
+      "rate_change_vs_exact_percent": 0.0,
+      "psnr_change_vs_exact_db": 0.0,
+      "ssim_change_vs_exact": 0.0
+    },
+    {
+      "pair": 32,
+      "condition": "mild",
+      "rotation_degrees": 0.5,
+      "translation_percent_extent": 0.25,
+      "scale_percent": 0.5,
+      "bytes": 8818383,
+      "psnr_db": 39.168735845797215,
+      "ssim": 0.9900957942008972,
+      "rate_change_vs_exact_percent": -0.01225698069633463,
+      "psnr_change_vs_exact_db": -0.5868891886443421,
+      "ssim_change_vs_exact": -0.00019080936908721924
+    },
+    {
+      "pair": 32,
+      "condition": "moderate",
+      "rotation_degrees": 1.0,
+      "translation_percent_extent": 0.5,
+      "scale_percent": 1.0,
+      "bytes": 8815650,
+      "psnr_db": 39.09617409790893,
+      "ssim": 0.9899930357933044,
+      "rate_change_vs_exact_percent": -0.0432452584420151,
+      "psnr_change_vs_exact_db": -0.6594509365326289,
+      "ssim_change_vs_exact": -0.0002935677766799927
+    }
+  ]
+}

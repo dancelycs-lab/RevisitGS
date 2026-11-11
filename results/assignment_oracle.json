@@ -1,0 +1,282 @@
+{
+  "experiment": "fixed small-scale exact-assignment diagnostic",
+  "pairs": [
+    4,
+    12,
+    20,
+    30,
+    38,
+    46
+  ],
+  "source_candidate_cap": 2000,
+  "candidate_neighbors": 8,
+  "interpretation": "Hungarian results are assignment upper-bound diagnostics, not full-scene codec baselines.",
+  "rows": [
+    {
+      "pair": 4,
+      "sampled_source_candidates": 2000,
+      "candidate_edges": 13992,
+      "candidate_targets": 13091,
+      "methods": [
+        {
+          "method": "nearest",
+          "matches": 1938,
+          "retained": 969,
+          "mean_geometry_residual": 0.02051230948210153,
+          "mean_residual_complexity": 2.531791685944622,
+          "p90_residual_complexity": 3.1812331852519273
+        },
+        {
+          "method": "greedy_k8",
+          "matches": 1991,
+          "retained": 996,
+          "mean_geometry_residual": 0.02085271391286364,
+          "mean_residual_complexity": 2.5421495667570317,
+          "p90_residual_complexity": 3.192280133042589
+        },
+        {
+          "method": "hungarian_geometry",
+          "matches": 1998,
+          "retained": 999,
+          "mean_geometry_residual": 0.020824539052907865,
+          "mean_residual_complexity": 2.54410303689821,
+          "p90_residual_complexity": 3.208644398574672
+        },
+        {
+          "method": "hungarian_attribute_oracle",
+          "matches": 1998,
+          "retained": 999,
+          "mean_geometry_residual": 0.023863196928478953,
+          "mean_residual_complexity": 2.3031372780347494,
+          "p90_residual_complexity": 2.836552180935575
+        }
+      ]
+    },
+    {
+      "pair": 12,
+      "sampled_source_candidates": 2000,
+      "candidate_edges": 14053,
+      "candidate_targets": 12659,
+      "methods": [
+        {
+          "method": "nearest",
+          "matches": 1891,
+          "retained": 946,
+          "mean_geometry_residual": 0.013664099623020252,
+          "mean_residual_complexity": 2.5157567915241033,
+          "p90_residual_complexity": 3.141786897611946
+        },
+        {
+          "method": "greedy_k8",
+          "matches": 1990,
+          "retained": 995,
+          "mean_geometry_residual": 0.013914449935448268,
+          "mean_residual_complexity": 2.5399019606355853,
+          "p90_residual_complexity": 3.1726397208537906
+        },
+        {
+          "method": "hungarian_geometry",
+          "matches": 1996,
+          "retained": 998,
+          "mean_geometry_residual": 0.01393114890800463,
+          "mean_residual_complexity": 2.5421559289299624,
+          "p90_residual_complexity": 3.17387892229148
+        },
+        {
+          "method": "hungarian_attribute_oracle",
+          "matches": 1996,
+          "retained": 998,
+          "mean_geometry_residual": 0.015185494412791807,
+          "mean_residual_complexity": 2.343005575942572,
+          "p90_residual_complexity": 2.8709799715473068
+        }
+      ]
+    },
+    {
+      "pair": 20,
+      "sampled_source_candidates": 2000,
+      "candidate_edges": 13567,
+      "candidate_targets": 12848,
+      "methods": [
+        {
+          "method": "nearest",
+          "matches": 1951,
+          "retained": 976,
+          "mean_geometry_residual": 0.023491815154545986,
+          "mean_residual_complexity": 2.5939094861922958,
+          "p90_residual_complexity": 3.1679490260272543
+        },
+        {
+          "method": "greedy_k8",
+          "matches": 1993,
+          "retained": 996,
+          "mean_geometry_residual": 0.02368306734375041,
+          "mean_residual_complexity": 2.604278560892686,
+          "p90_residual_complexity": 3.189236385119987
+        },
+        {
+          "method": "hungarian_geometry",
+          "matches": 1997,
+          "retained": 998,
+          "mean_geometry_residual": 0.023679302311590735,
+          "mean_residual_complexity": 2.6070204916812902,
+          "p90_residual_complexity": 3.190831767355551
+        },
+        {
+          "method": "hungarian_attribute_oracle",
+          "matches": 1997,
+          "retained": 998,
+          "mean_geometry_residual": 0.02571045664136352,
+          "mean_residual_complexity": 2.419941425627312,
+          "p90_residual_complexity": 2.9162135606060637
+        }
+      ]
+    },
+    {
+      "pair": 30,
+      "sampled_source_candidates": 2000,
+      "candidate_edges": 13981,
+      "candidate_targets": 11572,
+      "methods": [
+        {
+          "method": "nearest",
+          "matches": 1771,
+          "retained": 886,
+          "mean_geometry_residual": 0.030850448264018424,
+          "mean_residual_complexity": 2.5691939673056687,
+          "p90_residual_complexity": 3.1147650402173084
+        },
+        {
+          "method": "greedy_k8",
+          "matches": 1952,
+          "retained": 976,
+          "mean_geometry_residual": 0.03238214820181331,
+          "mean_residual_complexity": 2.608810315831667,
+          "p90_residual_complexity": 3.1746558870146613
+        },
+        {
+          "method": "hungarian_geometry",
+          "matches": 1982,
+          "retained": 991,
+          "mean_geometry_residual": 0.03257135822816384,
+          "mean_residual_complexity": 2.6220819957215173,
+          "p90_residual_complexity": 3.197322718187642
+        },
+        {
+          "method": "hungarian_attribute_oracle",
+          "matches": 1982,
+          "retained": 991,
+          "mean_geometry_residual": 0.035583950913837335,
+          "mean_residual_complexity": 2.4366247672013035,
+          "p90_residual_complexity": 2.959034564927065
+        }
+      ]
+    },
+    {
+      "pair": 38,
+      "sampled_source_candidates": 2000,
+      "candidate_edges": 13953,
+      "candidate_targets": 13123,
+      "methods": [
+        {
+          "method": "nearest",
+          "matches": 1929,
+          "retained": 964,
+          "mean_geometry_residual": 0.01971145723992143,
+          "mean_residual_complexity": 2.633918954032787,
+          "p90_residual_complexity": 3.219500068216589
+        },
+        {
+          "method": "greedy_k8",
+          "matches": 1994,
+          "retained": 997,
+          "mean_geometry_residual": 0.020048777032043462,
+          "mean_residual_complexity": 2.642398200014859,
+          "p90_residual_complexity": 3.2339511534644068
+        },
+        {
+          "method": "hungarian_geometry",
+          "matches": 1998,
+          "retained": 999,
+          "mean_geometry_residual": 0.02008801507951011,
+          "mean_residual_complexity": 2.643657944730254,
+          "p90_residual_complexity": 3.2338170309248357
+        },
+        {
+          "method": "hungarian_attribute_oracle",
+          "matches": 1998,
+          "retained": 999,
+          "mean_geometry_residual": 0.02182560025310605,
+          "mean_residual_complexity": 2.469460677490773,
+          "p90_residual_complexity": 2.990618751273459
+        }
+      ]
+    },
+    {
+      "pair": 46,
+      "sampled_source_candidates": 2000,
+      "candidate_edges": 13873,
+      "candidate_targets": 12459,
+      "methods": [
+        {
+          "method": "nearest",
+          "matches": 1887,
+          "retained": 944,
+          "mean_geometry_residual": 0.013722205669239516,
+          "mean_residual_complexity": 2.5385684433820397,
+          "p90_residual_complexity": 3.158661793686107
+        },
+        {
+          "method": "greedy_k8",
+          "matches": 1978,
+          "retained": 989,
+          "mean_geometry_residual": 0.013975366103158589,
+          "mean_residual_complexity": 2.558072940609006,
+          "p90_residual_complexity": 3.1827540088867208
+        },
+        {
+          "method": "hungarian_geometry",
+          "matches": 1989,
+          "retained": 994,
+          "mean_geometry_residual": 0.014041171638311908,
+          "mean_residual_complexity": 2.5612354380133184,
+          "p90_residual_complexity": 3.1921449741813483
+        },
+        {
+          "method": "hungarian_attribute_oracle",
+          "matches": 1989,
+          "retained": 994,
+          "mean_geometry_residual": 0.015511791783957946,
+          "mean_residual_complexity": 2.3347600366620984,
+          "p90_residual_complexity": 2.913821394237118
+        }
+      ]
+    }
+  ],
+  "aggregate": [
+    {
+      "method": "nearest",
+      "mean_matches": 1894.5,
+      "mean_retained_complexity": 2.5638565547302528,
+      "mean_retained_geometry": 0.020325389238807858
+    },
+    {
+      "method": "greedy_k8",
+      "mean_matches": 1983.0,
+      "mean_retained_complexity": 2.582601924123472,
+      "mean_retained_geometry": 0.020809420421512945
+    },
+    {
+      "method": "hungarian_geometry",
+      "mean_matches": 1993.3333333333333,
+      "mean_retained_complexity": 2.5867091393290917,
+      "mean_retained_geometry": 0.020855922536414846
+    },
+    {
+      "method": "hungarian_attribute_oracle",
+      "mean_matches": 1993.3333333333333,
+      "mean_retained_complexity": 2.384488293493135,
+      "mean_retained_geometry": 0.0229467484889226
+    }
+  ]
+}

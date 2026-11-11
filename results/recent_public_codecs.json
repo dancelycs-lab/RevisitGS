@@ -1,0 +1,1781 @@
+{
+  "test_pairs": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "methods": {
+    "FlexGaussian": [
+      {
+        "pair": 4,
+        "point": "prune_0.2_sh_0.3",
+        "bytes": 20742011,
+        "bits_per_target_gaussian": 200.2723884560052,
+        "psnr_db": 30.439374001856347,
+        "ssim": 0.9255943149328232
+      },
+      {
+        "pair": 4,
+        "point": "prune_0.4_sh_0.4",
+        "bytes": 12472651,
+        "bits_per_target_gaussian": 120.42841970087575,
+        "psnr_db": 25.7626209752656,
+        "ssim": 0.8882340490818024
+      },
+      {
+        "pair": 4,
+        "point": "prune_0.6_sh_0.4",
+        "bytes": 5642013,
+        "bits_per_target_gaussian": 54.47588564145642,
+        "psnr_db": 20.61372570725957,
+        "ssim": 0.8003242462873459
+      },
+      {
+        "pair": 4,
+        "point": "prune_0.9_sh_0.1",
+        "bytes": 1540973,
+        "bits_per_target_gaussian": 14.878708880070292,
+        "psnr_db": 12.255388695704294,
+        "ssim": 0.4739532433450222
+      },
+      {
+        "pair": 5,
+        "point": "prune_0.2_sh_0.3",
+        "bytes": 14404235,
+        "bits_per_target_gaussian": 199.76368247606402,
+        "psnr_db": 36.2900292922182,
+        "ssim": 0.9760159850120544
+      },
+      {
+        "pair": 5,
+        "point": "prune_0.4_sh_0.4",
+        "bytes": 8721315,
+        "bits_per_target_gaussian": 120.95067877146785,
+        "psnr_db": 29.593169712916747,
+        "ssim": 0.9314900487661362
+      },
+      {
+        "pair": 5,
+        "point": "prune_0.6_sh_0.4",
+        "bytes": 3981133,
+        "bits_per_target_gaussian": 55.21194207863036,
+        "psnr_db": 23.29255138712154,
+        "ssim": 0.8208789080381393
+      },
+      {
+        "pair": 5,
+        "point": "prune_0.9_sh_0.1",
+        "bytes": 1125253,
+        "bits_per_target_gaussian": 15.605457908541373,
+        "psnr_db": 11.876069564599117,
+        "ssim": 0.35837472369894385
+      },
+      {
+        "pair": 6,
+        "point": "prune_0.2_sh_0.3",
+        "bytes": 11000323,
+        "bits_per_target_gaussian": 202.3489819615778,
+        "psnr_db": 35.735199170800726,
+        "ssim": 0.9644429683685303
+      },
+      {
+        "pair": 6,
+        "point": "prune_0.4_sh_0.4",
+        "bytes": 6775627,
+        "bits_per_target_gaussian": 124.63645163886366,
+        "psnr_db": 30.325985486148934,
+        "ssim": 0.9002852141857147
+      },
+      {
+        "pair": 6,
+        "point": "prune_0.6_sh_0.4",
+        "bytes": 3043669,
+        "bits_per_target_gaussian": 55.987749048642804,
+        "psnr_db": 24.254919075648914,
+        "ssim": 0.7853855192661285
+      },
+      {
+        "pair": 6,
+        "point": "prune_0.9_sh_0.1",
+        "bytes": 891133,
+        "bits_per_target_gaussian": 16.392232786470608,
+        "psnr_db": 10.558882204445656,
+        "ssim": 0.30080789886415005
+      },
+      {
+        "pair": 7,
+        "point": "prune_0.2_sh_0.3",
+        "bytes": 25518755,
+        "bits_per_target_gaussian": 196.22132492380385,
+        "psnr_db": 35.54830370466941,
+        "ssim": 0.9704732000827789
+      },
+      {
+        "pair": 7,
+        "point": "prune_0.4_sh_0.4",
+        "bytes": 15290459,
+        "bits_per_target_gaussian": 117.57290368096332,
+        "psnr_db": 25.646968637663907,
+        "ssim": 0.8612598031759262
+      },
+      {
+        "pair": 7,
+        "point": "prune_0.6_sh_0.4",
+        "bytes": 7040885,
+        "bits_per_target_gaussian": 54.13946657413877,
+        "psnr_db": 14.871787301086298,
+        "ssim": 0.578561045229435
+      },
+      {
+        "pair": 7,
+        "point": "prune_0.9_sh_0.1",
+        "bytes": 1890933,
+        "bits_per_target_gaussian": 14.539948308690734,
+        "psnr_db": 10.8168593257422,
+        "ssim": 0.15152676217257977
+      },
+      {
+        "pair": 8,
+        "point": "prune_0.2_sh_0.3",
+        "bytes": 20591611,
+        "bits_per_target_gaussian": 199.92097962353913,
+        "psnr_db": 38.893733925908755,
+        "ssim": 0.986439123749733
+      },
+      {
+        "pair": 8,
+        "point": "prune_0.4_sh_0.4",
+        "bytes": 12382843,
+        "bits_per_target_gaussian": 120.22323571888009,
+        "psnr_db": 30.148261880670354,
+        "ssim": 0.9388648718595505
+      },
+      {
+        "pair": 8,
+        "point": "prune_0.6_sh_0.4",
+        "bytes": 5611813,
+        "bits_per_target_gaussian": 54.48428257624486,
+        "psnr_db": 24.69068109703232,
+        "ssim": 0.8962737023830414
+      },
+      {
+        "pair": 8,
+        "point": "prune_0.9_sh_0.1",
+        "bytes": 1533661,
+        "bits_per_target_gaussian": 14.89009332637532,
+        "psnr_db": 16.3013034227963,
+        "ssim": 0.6962021440267563
+      },
+      {
+        "pair": 9,
+        "point": "prune_0.2_sh_0.3",
+        "bytes": 14079507,
+        "bits_per_target_gaussian": 202.72065540961302,
+        "psnr_db": 39.4745213996022,
+        "ssim": 0.9556216150522232
+      },
+      {
+        "pair": 9,
+        "point": "prune_0.4_sh_0.4",
+        "bytes": 8510523,
+        "bits_per_target_gaussian": 122.53687578965555,
+        "psnr_db": 33.35914178851591,
+        "ssim": 0.9290319979190826
+      },
+      {
+        "pair": 9,
+        "point": "prune_0.6_sh_0.4",
+        "bytes": 3841261,
+        "bits_per_target_gaussian": 55.30754361778331,
+        "psnr_db": 28.704563826460358,
+        "ssim": 0.8912700116634369
+      },
+      {
+        "pair": 9,
+        "point": "prune_0.9_sh_0.1",
+        "bytes": 1090285,
+        "bits_per_target_gaussian": 15.698226492111543,
+        "psnr_db": 20.132779387889777,
+        "ssim": 0.750664234161377
+      },
+      {
+        "pair": 10,
+        "point": "prune_0.2_sh_0.3",
+        "bytes": 18042387,
+        "bits_per_target_gaussian": 199.6728299934429,
+        "psnr_db": 33.418338791164125,
+        "ssim": 0.9535562694072723
+      },
+      {
+        "pair": 10,
+        "point": "prune_0.4_sh_0.4",
+        "bytes": 10886171,
+        "bits_per_target_gaussian": 120.47588666413974,
+        "psnr_db": 25.789512815821674,
+        "ssim": 0.860577866435051
+      },
+      {
+        "pair": 10,
+        "point": "prune_0.6_sh_0.4",
+        "bytes": 4944709,
+        "bits_per_target_gaussian": 54.722473225080854,
+        "psnr_db": 17.61827765930139,
+        "ssim": 0.6413633599877357
+      },
+      {
+        "pair": 10,
+        "point": "prune_0.9_sh_0.1",
+        "bytes": 1366885,
+        "bits_per_target_gaussian": 15.127144552746106,
+        "psnr_db": 8.56006502007642,
+        "ssim": 0.2661251958925277
+      },
+      {
+        "pair": 11,
+        "point": "prune_0.2_sh_0.3",
+        "bytes": 27912155,
+        "bits_per_target_gaussian": 196.47246184005377,
+        "psnr_db": 37.35396359137766,
+        "ssim": 0.9656132012605667
+      },
+      {
+        "pair": 11,
+        "point": "prune_0.4_sh_0.4",
+        "bytes": 16736259,
+        "bits_per_target_gaussian": 117.80580925130133,
+        "psnr_db": 28.570652884155365,
+        "ssim": 0.9059339463710785
+      },
+      {
+        "pair": 11,
+        "point": "prune_0.6_sh_0.4",
+        "bytes": 7675085,
+        "bits_per_target_gaussian": 54.02459411613575,
+        "psnr_db": 22.99028138151021,
+        "ssim": 0.803834855556488
+      },
+      {
+        "pair": 11,
+        "point": "prune_0.9_sh_0.1",
+        "bytes": 2048741,
+        "bits_per_target_gaussian": 14.42100002463635,
+        "psnr_db": 13.596312445158794,
+        "ssim": 0.4968811571598053
+      },
+      {
+        "pair": 12,
+        "point": "prune_0.2_sh_0.3",
+        "bytes": 16943995,
+        "bits_per_target_gaussian": 199.1706510016427,
+        "psnr_db": 38.599470321536764,
+        "ssim": 0.9890933632850647
+      },
+      {
+        "pair": 12,
+        "point": "prune_0.4_sh_0.4",
+        "bytes": 10243139,
+        "bits_per_target_gaussian": 120.40446558974524,
+        "psnr_db": 30.30960361535307,
+        "ssim": 0.9633209705352783
+      },
+      {
+        "pair": 12,
+        "point": "prune_0.6_sh_0.4",
+        "bytes": 4666005,
+        "bits_per_target_gaussian": 54.84723369116433,
+        "psnr_db": 24.900265767529632,
+        "ssim": 0.926151230931282
+      },
+      {
+        "pair": 12,
+        "point": "prune_0.9_sh_0.1",
+        "bytes": 1297221,
+        "bits_per_target_gaussian": 15.24837271629282,
+        "psnr_db": 16.114831068717393,
+        "ssim": 0.6875097900629044
+      },
+      {
+        "pair": 13,
+        "point": "prune_0.2_sh_0.3",
+        "bytes": 19790851,
+        "bits_per_target_gaussian": 198.54235647304017,
+        "psnr_db": 35.73626906931657,
+        "ssim": 0.9585254490375519
+      },
+      {
+        "pair": 13,
+        "point": "prune_0.4_sh_0.4",
+        "bytes": 11940027,
+        "bits_per_target_gaussian": 119.78267619374854,
+        "psnr_db": 29.577751678324045,
+        "ssim": 0.9062524884939194
+      },
+      {
+        "pair": 13,
+        "point": "prune_0.6_sh_0.4",
+        "bytes": 5436941,
+        "bits_per_target_gaussian": 54.543540252255326,
+        "psnr_db": 25.804513073910403,
+        "ssim": 0.8657557815313339
+      },
+      {
+        "pair": 13,
+        "point": "prune_0.9_sh_0.1",
+        "bytes": 1489197,
+        "bits_per_target_gaussian": 14.939664880129815,
+        "psnr_db": 15.866252051597375,
+        "ssim": 0.6351684257388115
+      },
+      {
+        "pair": 14,
+        "point": "prune_0.2_sh_0.3",
+        "bytes": 19178555,
+        "bits_per_target_gaussian": 197.13733582428992,
+        "psnr_db": 34.42239713934815,
+        "ssim": 0.9593227505683899
+      },
+      {
+        "pair": 14,
+        "point": "prune_0.4_sh_0.4",
+        "bytes": 11660059,
+        "bits_per_target_gaussian": 119.85433557502293,
+        "psnr_db": 20.391566637752852,
+        "ssim": 0.6739754378795624
+      },
+      {
+        "pair": 14,
+        "point": "prune_0.6_sh_0.4",
+        "bytes": 5310285,
+        "bits_per_target_gaussian": 54.58468781238677,
+        "psnr_db": 18.355517470121143,
+        "ssim": 0.5979051701724529
+      },
+      {
+        "pair": 14,
+        "point": "prune_0.9_sh_0.1",
+        "bytes": 1457541,
+        "bits_per_target_gaussian": 14.98213757995174,
+        "psnr_db": 13.987298193368536,
+        "ssim": 0.3601732663810253
+      },
+      {
+        "pair": 15,
+        "point": "prune_0.2_sh_0.3",
+        "bytes": 4392563,
+        "bits_per_target_gaussian": 220.5960150158822,
+        "psnr_db": 38.77341466634904,
+        "ssim": 0.9707157462835312
+      },
+      {
+        "pair": 15,
+        "point": "prune_0.4_sh_0.4",
+        "bytes": 2831803,
+        "bits_per_target_gaussian": 142.21411442704868,
+        "psnr_db": 31.846565838814623,
+        "ssim": 0.9218242466449738
+      },
+      {
+        "pair": 15,
+        "point": "prune_0.6_sh_0.4",
+        "bytes": 1224797,
+        "bits_per_target_gaussian": 61.50972391367123,
+        "psnr_db": 27.291289447459114,
+        "ssim": 0.8444200307130814
+      },
+      {
+        "pair": 15,
+        "point": "prune_0.9_sh_0.1",
+        "bytes": 436157,
+        "bits_per_target_gaussian": 21.903953596404225,
+        "psnr_db": 17.390933102276506,
+        "ssim": 0.3596949018537998
+      },
+      {
+        "pair": 16,
+        "point": "prune_0.2_sh_0.3",
+        "bytes": 13476371,
+        "bits_per_target_gaussian": 201.96354535474904,
+        "psnr_db": 40.79178433207307,
+        "ssim": 0.9869736433029175
+      },
+      {
+        "pair": 16,
+        "point": "prune_0.4_sh_0.4",
+        "bytes": 8205163,
+        "bits_per_target_gaussian": 122.96662133252406,
+        "psnr_db": 33.45803970127915,
+        "ssim": 0.9692338854074478
+      },
+      {
+        "pair": 16,
+        "point": "prune_0.6_sh_0.4",
+        "bytes": 3696693,
+        "bits_per_target_gaussian": 55.400465330620776,
+        "psnr_db": 26.521471453601414,
+        "ssim": 0.9153871685266495
+      },
+      {
+        "pair": 16,
+        "point": "prune_0.9_sh_0.1",
+        "bytes": 1054389,
+        "bits_per_target_gaussian": 15.801593813575515,
+        "psnr_db": 18.01079302786194,
+        "ssim": 0.6626092195510864
+      },
+      {
+        "pair": 17,
+        "point": "prune_0.2_sh_0.3",
+        "bytes": 26042627,
+        "bits_per_target_gaussian": 198.52230149057752,
+        "psnr_db": 36.01156018414845,
+        "ssim": 0.9770729541778564
+      },
+      {
+        "pair": 17,
+        "point": "prune_0.4_sh_0.4",
+        "bytes": 15604355,
+        "bits_per_target_gaussian": 118.95161221162523,
+        "psnr_db": 28.270802138024827,
+        "ssim": 0.9320541173219681
+      },
+      {
+        "pair": 17,
+        "point": "prune_0.6_sh_0.4",
+        "bytes": 7099821,
+        "bits_per_target_gaussian": 54.121759878184854,
+        "psnr_db": 23.300866313183526,
+        "ssim": 0.8500068187713623
+      },
+      {
+        "pair": 17,
+        "point": "prune_0.9_sh_0.1",
+        "bytes": 1905413,
+        "bits_per_target_gaussian": 14.524916171093869,
+        "psnr_db": 16.709437921575596,
+        "ssim": 0.6096465662121773
+      },
+      {
+        "pair": 18,
+        "point": "prune_0.2_sh_0.3",
+        "bytes": 14595683,
+        "bits_per_target_gaussian": 195.21557639065364,
+        "psnr_db": 37.75379917974949,
+        "ssim": 0.9751358330249786
+      },
+      {
+        "pair": 18,
+        "point": "prune_0.4_sh_0.4",
+        "bytes": 8931651,
+        "bits_per_target_gaussian": 119.45980178420962,
+        "psnr_db": 33.94391772327543,
+        "ssim": 0.9572465568780899
+      },
+      {
+        "pair": 18,
+        "point": "prune_0.6_sh_0.4",
+        "bytes": 4121357,
+        "bits_per_target_gaussian": 55.122674441932936,
+        "psnr_db": 28.89152364481067,
+        "ssim": 0.9203242510557175
+      },
+      {
+        "pair": 18,
+        "point": "prune_0.9_sh_0.1",
+        "bytes": 1160301,
+        "bits_per_target_gaussian": 15.518892024556289,
+        "psnr_db": 21.41647432354362,
+        "ssim": 0.7539208680391312
+      },
+      {
+        "pair": 19,
+        "point": "prune_0.2_sh_0.3",
+        "bytes": 10307883,
+        "bits_per_target_gaussian": 206.42653055604924,
+        "psnr_db": 34.26662680712742,
+        "ssim": 0.9846507608890533
+      },
+      {
+        "pair": 19,
+        "point": "prune_0.4_sh_0.4",
+        "bytes": 6289547,
+        "bits_per_target_gaussian": 125.95499638278858,
+        "psnr_db": 27.708359611879086,
+        "ssim": 0.9550424516201019
+      },
+      {
+        "pair": 19,
+        "point": "prune_0.6_sh_0.4",
+        "bytes": 2809949,
+        "bits_per_target_gaussian": 56.272274637715626,
+        "psnr_db": 22.158942597699994,
+        "ssim": 0.8948221355676651
+      },
+      {
+        "pair": 19,
+        "point": "prune_0.9_sh_0.1",
+        "bytes": 832445,
+        "bits_per_target_gaussian": 16.67061347404995,
+        "psnr_db": 14.128457338077856,
+        "ssim": 0.6698217839002609
+      },
+      {
+        "pair": 20,
+        "point": "prune_0.2_sh_0.3",
+        "bytes": 29350011,
+        "bits_per_target_gaussian": 197.16254651959534,
+        "psnr_db": 29.327996784821757,
+        "ssim": 0.9596283435821533
+      },
+      {
+        "pair": 20,
+        "point": "prune_0.4_sh_0.4",
+        "bytes": 17590147,
+        "bits_per_target_gaussian": 118.16411844527146,
+        "psnr_db": 22.90806678858734,
+        "ssim": 0.9141140431165695
+      },
+      {
+        "pair": 20,
+        "point": "prune_0.6_sh_0.4",
+        "bytes": 8034021,
+        "bits_per_target_gaussian": 53.969589284034875,
+        "psnr_db": 20.53613473404576,
+        "ssim": 0.8669450283050537
+      },
+      {
+        "pair": 20,
+        "point": "prune_0.9_sh_0.1",
+        "bytes": 2138717,
+        "bits_per_target_gaussian": 14.3671118216872,
+        "psnr_db": 13.736334180193024,
+        "ssim": 0.6482690498232841
+      },
+      {
+        "pair": 21,
+        "point": "prune_0.2_sh_0.3",
+        "bytes": 20835987,
+        "bits_per_target_gaussian": 199.4685589833186,
+        "psnr_db": 37.2137243317072,
+        "ssim": 0.9793165475130081
+      },
+      {
+        "pair": 21,
+        "point": "prune_0.4_sh_0.4",
+        "bytes": 12542875,
+        "bits_per_target_gaussian": 120.07634683962377,
+        "psnr_db": 28.99629333874884,
+        "ssim": 0.9576064646244049
+      },
+      {
+        "pair": 21,
+        "point": "prune_0.6_sh_0.4",
+        "bytes": 5689501,
+        "bits_per_target_gaussian": 54.467137352511784,
+        "psnr_db": 22.71575505026122,
+        "ssim": 0.8906282782554626
+      },
+      {
+        "pair": 21,
+        "point": "prune_0.9_sh_0.1",
+        "bytes": 1552333,
+        "bits_per_target_gaussian": 14.860905152813345,
+        "psnr_db": 15.32005104917403,
+        "ssim": 0.6387693956494331
+      },
+      {
+        "pair": 22,
+        "point": "prune_0.2_sh_0.3",
+        "bytes": 33631579,
+        "bits_per_target_gaussian": 197.07393807815055,
+        "psnr_db": 35.60033490787862,
+        "ssim": 0.9861481040716171
+      },
+      {
+        "pair": 22,
+        "point": "prune_0.4_sh_0.4",
+        "bytes": 20125827,
+        "bits_per_target_gaussian": 117.93308854067097,
+        "psnr_db": 25.879967289252264,
+        "ssim": 0.9105211645364761
+      },
+      {
+        "pair": 22,
+        "point": "prune_0.6_sh_0.4",
+        "bytes": 9184797,
+        "bits_per_target_gaussian": 53.8209673485263,
+        "psnr_db": 24.068463509669396,
+        "ssim": 0.8704807311296463
+      },
+      {
+        "pair": 22,
+        "point": "prune_0.9_sh_0.1",
+        "bytes": 2426661,
+        "bits_per_target_gaussian": 14.219720092555358,
+        "psnr_db": 13.980170624075297,
+        "ssim": 0.5656740739941597
+      },
+      {
+        "pair": 23,
+        "point": "prune_0.2_sh_0.3",
+        "bytes": 17629019,
+        "bits_per_target_gaussian": 198.0599493306819,
+        "psnr_db": 42.939869298459925,
+        "ssim": 0.9894706457853317
+      },
+      {
+        "pair": 23,
+        "point": "prune_0.4_sh_0.4",
+        "bytes": 10734395,
+        "bits_per_target_gaussian": 120.59966183004994,
+        "psnr_db": 36.448761148032574,
+        "ssim": 0.9697964042425156
+      },
+      {
+        "pair": 23,
+        "point": "prune_0.6_sh_0.4",
+        "bytes": 4873525,
+        "bits_per_target_gaussian": 54.75347860035839,
+        "psnr_db": 31.529266256908528,
+        "ssim": 0.9263801127672195
+      },
+      {
+        "pair": 23,
+        "point": "prune_0.9_sh_0.1",
+        "bytes": 1348589,
+        "bits_per_target_gaussian": 15.151238364875265,
+        "psnr_db": 21.194231577889717,
+        "ssim": 0.7363921701908112
+      },
+      {
+        "pair": 24,
+        "point": "prune_0.2_sh_0.3",
+        "bytes": 27642107,
+        "bits_per_target_gaussian": 198.140829472277,
+        "psnr_db": 32.42693970031633,
+        "ssim": 0.9356908798217773
+      },
+      {
+        "pair": 24,
+        "point": "prune_0.4_sh_0.4",
+        "bytes": 16533715,
+        "bits_per_target_gaussian": 118.51498890291643,
+        "psnr_db": 22.049040849336407,
+        "ssim": 0.7424493953585625
+      },
+      {
+        "pair": 24,
+        "point": "prune_0.6_sh_0.4",
+        "bytes": 7540061,
+        "bits_per_target_gaussian": 54.0477591238456,
+        "psnr_db": 15.744321487384866,
+        "ssim": 0.6024591699242592
+      },
+      {
+        "pair": 24,
+        "point": "prune_0.9_sh_0.1",
+        "bytes": 2014973,
+        "bits_per_target_gaussian": 14.443487306674648,
+        "psnr_db": 10.595870224213567,
+        "ssim": 0.34501641464885324
+      },
+      {
+        "pair": 26,
+        "point": "prune_0.2_sh_0.3",
+        "bytes": 16877283,
+        "bits_per_target_gaussian": 196.88822198987694,
+        "psnr_db": 34.73527090633439,
+        "ssim": 0.975909560918808
+      },
+      {
+        "pair": 26,
+        "point": "prune_0.4_sh_0.4",
+        "bytes": 10248851,
+        "bits_per_target_gaussian": 119.56178318685373,
+        "psnr_db": 27.971560320185613,
+        "ssim": 0.9308886975049973
+      },
+      {
+        "pair": 26,
+        "point": "prune_0.6_sh_0.4",
+        "bytes": 4700157,
+        "bits_per_target_gaussian": 54.831429608857896,
+        "psnr_db": 23.247150626439613,
+        "ssim": 0.8511032164096832
+      },
+      {
+        "pair": 26,
+        "point": "prune_0.9_sh_0.1",
+        "bytes": 1305509,
+        "bits_per_target_gaussian": 15.229900796341582,
+        "psnr_db": 17.116645755087532,
+        "ssim": 0.621081106364727
+      },
+      {
+        "pair": 27,
+        "point": "prune_0.2_sh_0.3",
+        "bytes": 19134699,
+        "bits_per_target_gaussian": 199.28423184926646,
+        "psnr_db": 43.07332671425468,
+        "ssim": 0.9936119616031647
+      },
+      {
+        "pair": 27,
+        "point": "prune_0.4_sh_0.4",
+        "bytes": 11514667,
+        "bits_per_target_gaussian": 119.92305539246254,
+        "psnr_db": 35.799720112465856,
+        "ssim": 0.982073113322258
+      },
+      {
+        "pair": 27,
+        "point": "prune_0.6_sh_0.4",
+        "bytes": 5243357,
+        "bits_per_target_gaussian": 54.60856071247707,
+        "psnr_db": 28.14302045362532,
+        "ssim": 0.9395469129085541
+      },
+      {
+        "pair": 27,
+        "point": "prune_0.9_sh_0.1",
+        "bytes": 1441301,
+        "bits_per_target_gaussian": 15.010874362255691,
+        "psnr_db": 16.994327774934437,
+        "ssim": 0.6924331486225128
+      },
+      {
+        "pair": 28,
+        "point": "prune_0.2_sh_0.3",
+        "bytes": 27565259,
+        "bits_per_target_gaussian": 198.0175728618263,
+        "psnr_db": 35.710306150579626,
+        "ssim": 0.9577905684709549
+      },
+      {
+        "pair": 28,
+        "point": "prune_0.4_sh_0.4",
+        "bytes": 16510579,
+        "bits_per_target_gaussian": 118.60526251987835,
+        "psnr_db": 26.716012132521143,
+        "ssim": 0.806270144879818
+      },
+      {
+        "pair": 28,
+        "point": "prune_0.6_sh_0.4",
+        "bytes": 7523637,
+        "bits_per_target_gaussian": 54.0467382451742,
+        "psnr_db": 21.710428480206133,
+        "ssim": 0.7399316392838955
+      },
+      {
+        "pair": 28,
+        "point": "prune_0.9_sh_0.1",
+        "bytes": 2011117,
+        "bits_per_target_gaussian": 14.447043907011993,
+        "psnr_db": 13.85207624818949,
+        "ssim": 0.46250259689986706
+      },
+      {
+        "pair": 29,
+        "point": "prune_0.2_sh_0.3",
+        "bytes": 15415755,
+        "bits_per_target_gaussian": 198.0342705190357,
+        "psnr_db": 33.47446215278431,
+        "ssim": 0.9028003066778183
+      },
+      {
+        "pair": 29,
+        "point": "prune_0.4_sh_0.4",
+        "bytes": 9354955,
+        "bits_per_target_gaussian": 120.17586483201151,
+        "psnr_db": 25.08806507264216,
+        "ssim": 0.8490213453769684
+      },
+      {
+        "pair": 29,
+        "point": "prune_0.6_sh_0.4",
+        "bytes": 4283893,
+        "bits_per_target_gaussian": 55.03185703435241,
+        "psnr_db": 19.623453766116302,
+        "ssim": 0.748025618493557
+      },
+      {
+        "pair": 29,
+        "point": "prune_0.9_sh_0.1",
+        "bytes": 1201693,
+        "bits_per_target_gaussian": 15.437219691337308,
+        "psnr_db": 13.13349068511124,
+        "ssim": 0.4752674475312233
+      },
+      {
+        "pair": 30,
+        "point": "prune_0.2_sh_0.3",
+        "bytes": 20720475,
+        "bits_per_target_gaussian": 199.6415783559575,
+        "psnr_db": 41.75635269275009,
+        "ssim": 0.9914893507957458
+      },
+      {
+        "pair": 30,
+        "point": "prune_0.4_sh_0.4",
+        "bytes": 12445499,
+        "bits_per_target_gaussian": 119.91226377713303,
+        "psnr_db": 35.404459231368776,
+        "ssim": 0.9377004653215408
+      },
+      {
+        "pair": 30,
+        "point": "prune_0.6_sh_0.4",
+        "bytes": 5654245,
+        "bits_per_target_gaussian": 54.47859647094388,
+        "psnr_db": 25.279657687219252,
+        "ssim": 0.7846966311335564
+      },
+      {
+        "pair": 30,
+        "point": "prune_0.9_sh_0.1",
+        "bytes": 1543773,
+        "bits_per_target_gaussian": 14.874238083022304,
+        "psnr_db": 21.680707270040482,
+        "ssim": 0.6849781083874404
+      },
+      {
+        "pair": 31,
+        "point": "prune_0.2_sh_0.3",
+        "bytes": 23314963,
+        "bits_per_target_gaussian": 198.07268977659973,
+        "psnr_db": 33.596224252900946,
+        "ssim": 0.957692489027977
+      },
+      {
+        "pair": 31,
+        "point": "prune_0.4_sh_0.4",
+        "bytes": 14042603,
+        "bits_per_target_gaussian": 119.29918772227727,
+        "psnr_db": 27.03044364874537,
+        "ssim": 0.8835994303226471
+      },
+      {
+        "pair": 31,
+        "point": "prune_0.6_sh_0.4",
+        "bytes": 6388997,
+        "bits_per_target_gaussian": 54.27783954727384,
+        "psnr_db": 22.31913034569149,
+        "ssim": 0.7548975348472595
+      },
+      {
+        "pair": 31,
+        "point": "prune_0.9_sh_0.1",
+        "bytes": 1727965,
+        "bits_per_target_gaussian": 14.679957904707898,
+        "psnr_db": 11.688103366895717,
+        "ssim": 0.31054357439279556
+      },
+      {
+        "pair": 32,
+        "point": "prune_0.2_sh_0.3",
+        "bytes": 20024515,
+        "bits_per_target_gaussian": 199.021417061841,
+        "psnr_db": 34.57949644058021,
+        "ssim": 0.9524227678775787
+      },
+      {
+        "pair": 32,
+        "point": "prune_0.4_sh_0.4",
+        "bytes": 12103771,
+        "bits_per_target_gaussian": 120.29802750338854,
+        "psnr_db": 29.59011544095119,
+        "ssim": 0.9013592451810837
+      },
+      {
+        "pair": 32,
+        "point": "prune_0.6_sh_0.4",
+        "bytes": 5485765,
+        "bits_per_target_gaussian": 54.52240536004244,
+        "psnr_db": 23.985357725720732,
+        "ssim": 0.8263069242238998
+      },
+      {
+        "pair": 32,
+        "point": "prune_0.9_sh_0.1",
+        "bytes": 1502149,
+        "bits_per_target_gaussian": 14.929691062082023,
+        "psnr_db": 15.631298473835502,
+        "ssim": 0.6210354492068291
+      },
+      {
+        "pair": 33,
+        "point": "prune_0.2_sh_0.3",
+        "bytes": 23625139,
+        "bits_per_target_gaussian": 197.9135552186042,
+        "psnr_db": 27.353813304557015,
+        "ssim": 0.9401237219572067
+      },
+      {
+        "pair": 33,
+        "point": "prune_0.4_sh_0.4",
+        "bytes": 14219235,
+        "bits_per_target_gaussian": 119.11800185974818,
+        "psnr_db": 22.905666238598464,
+        "ssim": 0.8681755661964417
+      },
+      {
+        "pair": 33,
+        "point": "prune_0.6_sh_0.4",
+        "bytes": 6476085,
+        "bits_per_target_gaussian": 54.2517445610743,
+        "psnr_db": 18.08367512647307,
+        "ssim": 0.7253406643867493
+      },
+      {
+        "pair": 33,
+        "point": "prune_0.9_sh_0.1",
+        "bytes": 1749229,
+        "bits_per_target_gaussian": 14.653718239773479,
+        "psnr_db": 9.839602740002082,
+        "ssim": 0.2746154833585024
+      },
+      {
+        "pair": 34,
+        "point": "prune_0.2_sh_0.3",
+        "bytes": 16283051,
+        "bits_per_target_gaussian": 201.16812552120334,
+        "psnr_db": 31.24998502171784,
+        "ssim": 0.9406132251024246
+      },
+      {
+        "pair": 34,
+        "point": "prune_0.4_sh_0.4",
+        "bytes": 9825923,
+        "bits_per_target_gaussian": 121.39386601599901,
+        "psnr_db": 22.8747232124854,
+        "ssim": 0.8188008219003677
+      },
+      {
+        "pair": 34,
+        "point": "prune_0.6_sh_0.4",
+        "bytes": 4447533,
+        "bits_per_target_gaussian": 54.94682027365105,
+        "psnr_db": 11.754871864948317,
+        "ssim": 0.39959898963570595
+      },
+      {
+        "pair": 34,
+        "point": "prune_0.9_sh_0.1",
+        "bytes": 1242341,
+        "bits_per_target_gaussian": 15.348438706489175,
+        "psnr_db": 8.560465825468922,
+        "ssim": 0.16923396778292954
+      },
+      {
+        "pair": 35,
+        "point": "prune_0.2_sh_0.3",
+        "bytes": 11384179,
+        "bits_per_target_gaussian": 205.3576136391822,
+        "psnr_db": 39.212540916813346,
+        "ssim": 0.9910396933555603
+      },
+      {
+        "pair": 35,
+        "point": "prune_0.4_sh_0.4",
+        "bytes": 6951027,
+        "bits_per_target_gaussian": 125.38860440103092,
+        "psnr_db": 35.14393447875677,
+        "ssim": 0.9749211519956589
+      },
+      {
+        "pair": 35,
+        "point": "prune_0.6_sh_0.4",
+        "bytes": 3100597,
+        "bits_per_target_gaussian": 55.931235864861875,
+        "psnr_db": 26.13703360123924,
+        "ssim": 0.9167764186859131
+      },
+      {
+        "pair": 35,
+        "point": "prune_0.9_sh_0.1",
+        "bytes": 905861,
+        "bits_per_target_gaussian": 16.34069995287348,
+        "psnr_db": 16.343326888934605,
+        "ssim": 0.7892431765794754
+      },
+      {
+        "pair": 36,
+        "point": "prune_0.2_sh_0.3",
+        "bytes": 20419611,
+        "bits_per_target_gaussian": 198.93017948627397,
+        "psnr_db": 34.59540661331832,
+        "ssim": 0.9799603968858719
+      },
+      {
+        "pair": 36,
+        "point": "prune_0.4_sh_0.4",
+        "bytes": 12264851,
+        "bits_per_target_gaussian": 119.4855774090117,
+        "psnr_db": 25.483877325120773,
+        "ssim": 0.9124991297721863
+      },
+      {
+        "pair": 36,
+        "point": "prune_0.6_sh_0.4",
+        "bytes": 5593813,
+        "bits_per_target_gaussian": 54.49556429369064,
+        "psnr_db": 15.252991214813429,
+        "ssim": 0.7285491079092026
+      },
+      {
+        "pair": 36,
+        "point": "prune_0.9_sh_0.1",
+        "bytes": 1529165,
+        "bits_per_target_gaussian": 14.897299851310985,
+        "psnr_db": 10.373231675763757,
+        "ssim": 0.4426833037286997
+      },
+      {
+        "pair": 37,
+        "point": "prune_0.2_sh_0.3",
+        "bytes": 20523011,
+        "bits_per_target_gaussian": 198.04575276138965,
+        "psnr_db": 34.13041933345393,
+        "ssim": 0.9590056836605072
+      },
+      {
+        "pair": 37,
+        "point": "prune_0.4_sh_0.4",
+        "bytes": 12387147,
+        "bits_per_target_gaussian": 119.53518185908439,
+        "psnr_db": 27.388422786505355,
+        "ssim": 0.887409582734108
+      },
+      {
+        "pair": 37,
+        "point": "prune_0.6_sh_0.4",
+        "bytes": 5645021,
+        "bits_per_target_gaussian": 54.474094142367925,
+        "psnr_db": 18.259682668788884,
+        "ssim": 0.6476372256875038
+      },
+      {
+        "pair": 37,
+        "point": "prune_0.9_sh_0.1",
+        "bytes": 1541725,
+        "bits_per_target_gaussian": 14.877548337135007,
+        "psnr_db": 11.053922660868704,
+        "ssim": 0.398464884608984
+      },
+      {
+        "pair": 38,
+        "point": "prune_0.2_sh_0.3",
+        "bytes": 32067307,
+        "bits_per_target_gaussian": 194.08588734265513,
+        "psnr_db": 27.820133429279778,
+        "ssim": 0.9145110100507736
+      },
+      {
+        "pair": 38,
+        "point": "prune_0.4_sh_0.4",
+        "bytes": 19290611,
+        "bits_per_target_gaussian": 116.75552778151852,
+        "psnr_db": 20.976913731196714,
+        "ssim": 0.788219191133976
+      },
+      {
+        "pair": 38,
+        "point": "prune_0.6_sh_0.4",
+        "bytes": 8897669,
+        "bits_per_target_gaussian": 53.85272867304494,
+        "psnr_db": 17.84075100517478,
+        "ssim": 0.7071461006999016
+      },
+      {
+        "pair": 38,
+        "point": "prune_0.9_sh_0.1",
+        "bytes": 2355125,
+        "bits_per_target_gaussian": 14.254284758862683,
+        "psnr_db": 11.44142895285448,
+        "ssim": 0.37799033522605896
+      },
+      {
+        "pair": 39,
+        "point": "prune_0.2_sh_0.3",
+        "bytes": 18352675,
+        "bits_per_target_gaussian": 199.43628070232631,
+        "psnr_db": 33.86261021416619,
+        "ssim": 0.9411752820014954
+      },
+      {
+        "pair": 39,
+        "point": "prune_0.4_sh_0.4",
+        "bytes": 11107899,
+        "bits_per_target_gaussian": 120.70818357417052,
+        "psnr_db": 24.337538669849913,
+        "ssim": 0.7338148057460785
+      },
+      {
+        "pair": 39,
+        "point": "prune_0.6_sh_0.4",
+        "bytes": 5032845,
+        "bits_per_target_gaussian": 54.691312746032914,
+        "psnr_db": 14.225013842372372,
+        "ssim": 0.3282752772793174
+      },
+      {
+        "pair": 39,
+        "point": "prune_0.9_sh_0.1",
+        "bytes": 1388181,
+        "bits_per_target_gaussian": 15.085193607015656,
+        "psnr_db": 11.254313297099289,
+        "ssim": 0.2349779987707734
+      },
+      {
+        "pair": 40,
+        "point": "prune_0.2_sh_0.3",
+        "bytes": 26549035,
+        "bits_per_target_gaussian": 199.62712358251602,
+        "psnr_db": 34.21688061801293,
+        "ssim": 0.9661254584789276
+      },
+      {
+        "pair": 40,
+        "point": "prune_0.4_sh_0.4",
+        "bytes": 15883411,
+        "bits_per_target_gaussian": 119.43031641673207,
+        "psnr_db": 19.591516414293437,
+        "ssim": 0.8080052435398102
+      },
+      {
+        "pair": 40,
+        "point": "prune_0.6_sh_0.4",
+        "bytes": 7195525,
+        "bits_per_target_gaussian": 54.10448848389719,
+        "psnr_db": 17.738183582607395,
+        "ssim": 0.7157801985740662
+      },
+      {
+        "pair": 40,
+        "point": "prune_0.9_sh_0.1",
+        "bytes": 1929597,
+        "bits_per_target_gaussian": 14.508998115504092,
+        "psnr_db": 11.193843086483133,
+        "ssim": 0.3394024595618248
+      },
+      {
+        "pair": 41,
+        "point": "prune_0.2_sh_0.3",
+        "bytes": 22994267,
+        "bits_per_target_gaussian": 199.78532493301722,
+        "psnr_db": 34.77228903665211,
+        "ssim": 0.9552541822195053
+      },
+      {
+        "pair": 41,
+        "point": "prune_0.4_sh_0.4",
+        "bytes": 13790835,
+        "bits_per_target_gaussian": 119.82145165021466,
+        "psnr_db": 21.51554042191607,
+        "ssim": 0.7632591351866722
+      },
+      {
+        "pair": 41,
+        "point": "prune_0.6_sh_0.4",
+        "bytes": 6251141,
+        "bits_per_target_gaussian": 54.31293965087499,
+        "psnr_db": 18.501454886360907,
+        "ssim": 0.6963918954133987
+      },
+      {
+        "pair": 41,
+        "point": "prune_0.9_sh_0.1",
+        "bytes": 1693493,
+        "bits_per_target_gaussian": 14.71388713007421,
+        "psnr_db": 11.90257787797911,
+        "ssim": 0.45541244372725487
+      },
+      {
+        "pair": 42,
+        "point": "prune_0.2_sh_0.3",
+        "bytes": 16106115,
+        "bits_per_target_gaussian": 202.10168693974543,
+        "psnr_db": 32.724640965807495,
+        "ssim": 0.93893201649189
+      },
+      {
+        "pair": 42,
+        "point": "prune_0.4_sh_0.4",
+        "bytes": 9726971,
+        "bits_per_target_gaussian": 122.05533413327687,
+        "psnr_db": 27.201577671008124,
+        "ssim": 0.9086063355207443
+      },
+      {
+        "pair": 42,
+        "point": "prune_0.6_sh_0.4",
+        "bytes": 4381565,
+        "bits_per_target_gaussian": 54.98046412410105,
+        "psnr_db": 23.228436013845005,
+        "ssim": 0.8609737902879715
+      },
+      {
+        "pair": 42,
+        "point": "prune_0.9_sh_0.1",
+        "bytes": 1225357,
+        "bits_per_target_gaussian": 15.375943658878981,
+        "psnr_db": 17.0618059717102,
+        "ssim": 0.6697345152497292
+      },
+      {
+        "pair": 43,
+        "point": "prune_0.2_sh_0.3",
+        "bytes": 14203227,
+        "bits_per_target_gaussian": 202.31940685450556,
+        "psnr_db": 38.21641036813785,
+        "ssim": 0.8939395695924759
+      },
+      {
+        "pair": 43,
+        "point": "prune_0.4_sh_0.4",
+        "bytes": 8615059,
+        "bits_per_target_gaussian": 122.71814193327826,
+        "psnr_db": 29.640836466489958,
+        "ssim": 0.8416341617703438
+      },
+      {
+        "pair": 43,
+        "point": "prune_0.6_sh_0.4",
+        "bytes": 3880629,
+        "bits_per_target_gaussian": 55.27804051166633,
+        "psnr_db": 23.21585089766424,
+        "ssim": 0.7968183234333992
+      },
+      {
+        "pair": 43,
+        "point": "prune_0.9_sh_0.1",
+        "bytes": 1100869,
+        "bits_per_target_gaussian": 15.681447821999374,
+        "psnr_db": 14.09163916147594,
+        "ssim": 0.5425262898206711
+      },
+      {
+        "pair": 44,
+        "point": "prune_0.2_sh_0.3",
+        "bytes": 25208755,
+        "bits_per_target_gaussian": 195.6891912478907,
+        "psnr_db": 35.58555685540272,
+        "ssim": 0.9687698483467102
+      },
+      {
+        "pair": 44,
+        "point": "prune_0.4_sh_0.4",
+        "bytes": 15147947,
+        "bits_per_target_gaussian": 117.58968253275151,
+        "psnr_db": 26.0020394878908,
+        "ssim": 0.852984294295311
+      },
+      {
+        "pair": 44,
+        "point": "prune_0.6_sh_0.4",
+        "bytes": 6975893,
+        "bits_per_target_gaussian": 54.1520935643915,
+        "psnr_db": 18.812332453170654,
+        "ssim": 0.7261742688715458
+      },
+      {
+        "pair": 44,
+        "point": "prune_0.9_sh_0.1",
+        "bytes": 1874189,
+        "bits_per_target_gaussian": 14.548855334414295,
+        "psnr_db": 12.894088301096566,
+        "ssim": 0.5148639222607017
+      },
+      {
+        "pair": 45,
+        "point": "prune_0.2_sh_0.3",
+        "bytes": 23588683,
+        "bits_per_target_gaussian": 198.9009497650093,
+        "psnr_db": 34.938219820429225,
+        "ssim": 0.9554479420185089
+      },
+      {
+        "pair": 45,
+        "point": "prune_0.4_sh_0.4",
+        "bytes": 14157651,
+        "bits_per_target_gaussian": 119.37801827857595,
+        "psnr_db": 28.351233168407187,
+        "ssim": 0.9198403209447861
+      },
+      {
+        "pair": 45,
+        "point": "prune_0.6_sh_0.4",
+        "bytes": 6435357,
+        "bits_per_target_gaussian": 54.26325070275865,
+        "psnr_db": 23.40714420122996,
+        "ssim": 0.845430999994278
+      },
+      {
+        "pair": 45,
+        "point": "prune_0.9_sh_0.1",
+        "bytes": 1739309,
+        "bits_per_target_gaussian": 14.66594010504226,
+        "psnr_db": 14.552750286129935,
+        "ssim": 0.5679100826382637
+      },
+      {
+        "pair": 46,
+        "point": "prune_0.2_sh_0.3",
+        "bytes": 14579931,
+        "bits_per_target_gaussian": 196.51290380189573,
+        "psnr_db": 37.16041726511307,
+        "ssim": 0.8883287310600281
+      },
+      {
+        "pair": 46,
+        "point": "prune_0.4_sh_0.4",
+        "bytes": 8931587,
+        "bits_per_target_gaussian": 120.38274371320841,
+        "psnr_db": 31.693931716143183,
+        "ssim": 0.8728736639022827
+      },
+      {
+        "pair": 46,
+        "point": "prune_0.6_sh_0.4",
+        "bytes": 4090981,
+        "bits_per_target_gaussian": 55.13953088724379,
+        "psnr_db": 25.94428459413478,
+        "ssim": 0.8333225399255753
+      },
+      {
+        "pair": 46,
+        "point": "prune_0.9_sh_0.1",
+        "bytes": 1152957,
+        "bits_per_target_gaussian": 15.539917714886462,
+        "psnr_db": 16.881246705714407,
+        "ssim": 0.6170564517378807
+      }
+    ],
+    "GSCodec": [
+      {
+        "pair": 4,
+        "point": "rp1",
+        "bytes": 9764422,
+        "bits_per_target_gaussian": 94.27938862014696,
+        "psnr_db": 45.78793781201686,
+        "ssim": 0.997337281703949
+      },
+      {
+        "pair": 5,
+        "point": "rp1",
+        "bytes": 6565855,
+        "bits_per_target_gaussian": 91.05789883349426,
+        "psnr_db": 42.96208328819387,
+        "ssim": 0.9933689385652542
+      },
+      {
+        "pair": 6,
+        "point": "rp1",
+        "bytes": 4985613,
+        "bits_per_target_gaussian": 91.7094629861694,
+        "psnr_db": 45.80656435306339,
+        "ssim": 0.9958493858575821
+      },
+      {
+        "pair": 7,
+        "point": "rp1",
+        "bytes": 12188815,
+        "bits_per_target_gaussian": 93.72343707798967,
+        "psnr_db": 45.984600866448716,
+        "ssim": 0.996015340089798
+      },
+      {
+        "pair": 8,
+        "point": "rp1",
+        "bytes": 9228576,
+        "bits_per_target_gaussian": 89.59891260816272,
+        "psnr_db": 44.726886085070404,
+        "ssim": 0.996846929192543
+      },
+      {
+        "pair": 9,
+        "point": "rp1",
+        "bytes": 6566982,
+        "bits_per_target_gaussian": 94.55323223342488,
+        "psnr_db": 47.7079635728134,
+        "ssim": 0.9977248907089233
+      },
+      {
+        "pair": 10,
+        "point": "rp1",
+        "bytes": 8131789,
+        "bits_per_target_gaussian": 89.99348714444207,
+        "psnr_db": 44.29371842298288,
+        "ssim": 0.9953093826770782
+      },
+      {
+        "pair": 11,
+        "point": "rp1",
+        "bytes": 13029066,
+        "bits_per_target_gaussian": 91.71103673279767,
+        "psnr_db": 44.47396412315385,
+        "ssim": 0.9963022470474243
+      },
+      {
+        "pair": 12,
+        "point": "rp1",
+        "bytes": 8030759,
+        "bits_per_target_gaussian": 94.39872344552163,
+        "psnr_db": 43.51368957024834,
+        "ssim": 0.9961113184690475
+      },
+      {
+        "pair": 13,
+        "point": "rp1",
+        "bytes": 9522642,
+        "bits_per_target_gaussian": 95.53140400729329,
+        "psnr_db": 47.719330508309916,
+        "ssim": 0.9984719008207321
+      },
+      {
+        "pair": 14,
+        "point": "rp1",
+        "bytes": 8662286,
+        "bits_per_target_gaussian": 89.04007544823085,
+        "psnr_db": 45.80038525372474,
+        "ssim": 0.9957921504974365
+      },
+      {
+        "pair": 15,
+        "point": "rp1",
+        "bytes": 1871680,
+        "bits_per_target_gaussian": 93.99640924556492,
+        "psnr_db": 49.43965623889919,
+        "ssim": 0.9966705590486526
+      },
+      {
+        "pair": 16,
+        "point": "rp1",
+        "bytes": 6084553,
+        "bits_per_target_gaussian": 91.18611351519444,
+        "psnr_db": 48.38289015332382,
+        "ssim": 0.9981497526168823
+      },
+      {
+        "pair": 17,
+        "point": "rp1",
+        "bytes": 12146986,
+        "bits_per_target_gaussian": 92.59617383813946,
+        "psnr_db": 45.57163539267674,
+        "ssim": 0.995971068739891
+      },
+      {
+        "pair": 18,
+        "point": "rp1",
+        "bytes": 7221900,
+        "bits_per_target_gaussian": 96.59207939331523,
+        "psnr_db": 48.41606083474769,
+        "ssim": 0.997794896364212
+      },
+      {
+        "pair": 19,
+        "point": "rp1",
+        "bytes": 4798654,
+        "bits_per_target_gaussian": 96.0982479679783,
+        "psnr_db": 46.30875790913545,
+        "ssim": 0.9981613755226135
+      },
+      {
+        "pair": 20,
+        "point": "rp1",
+        "bytes": 14062724,
+        "bits_per_target_gaussian": 94.4681920167672,
+        "psnr_db": 44.18492605155263,
+        "ssim": 0.9981176555156708
+      },
+      {
+        "pair": 21,
+        "point": "rp1",
+        "bytes": 8938815,
+        "bits_per_target_gaussian": 85.57370222339229,
+        "psnr_db": 43.137475169878115,
+        "ssim": 0.9955570250749588
+      },
+      {
+        "pair": 22,
+        "point": "rp1",
+        "bytes": 16236358,
+        "bits_per_target_gaussian": 95.14162302955458,
+        "psnr_db": 44.25253951165415,
+        "ssim": 0.9979414194822311
+      },
+      {
+        "pair": 23,
+        "point": "rp1",
+        "bytes": 8245674,
+        "bits_per_target_gaussian": 92.63917491026137,
+        "psnr_db": 48.435090648369126,
+        "ssim": 0.9976486414670944
+      },
+      {
+        "pair": 24,
+        "point": "rp1",
+        "bytes": 12857277,
+        "bits_per_target_gaussian": 92.16198785189673,
+        "psnr_db": 43.87575881169072,
+        "ssim": 0.9957263469696045
+      },
+      {
+        "pair": 26,
+        "point": "rp1",
+        "bytes": 7610287,
+        "bits_per_target_gaussian": 88.78063348601043,
+        "psnr_db": 45.8659332571406,
+        "ssim": 0.9953932464122772
+      },
+      {
+        "pair": 27,
+        "point": "rp1",
+        "bytes": 8426099,
+        "bits_per_target_gaussian": 87.7562101552197,
+        "psnr_db": 43.62454873133006,
+        "ssim": 0.9960575550794601
+      },
+      {
+        "pair": 28,
+        "point": "rp1",
+        "bytes": 12996337,
+        "bits_per_target_gaussian": 93.36038195158439,
+        "psnr_db": 44.89596560085596,
+        "ssim": 0.9967762678861618
+      },
+      {
+        "pair": 29,
+        "point": "rp1",
+        "bytes": 6767718,
+        "bits_per_target_gaussian": 86.93963397890971,
+        "psnr_db": 41.80796460044962,
+        "ssim": 0.9936552941799164
+      },
+      {
+        "pair": 30,
+        "point": "rp1",
+        "bytes": 10004307,
+        "bits_per_target_gaussian": 96.39140221628867,
+        "psnr_db": 45.51227179589678,
+        "ssim": 0.9985200762748718
+      },
+      {
+        "pair": 31,
+        "point": "rp1",
+        "bytes": 10571419,
+        "bits_per_target_gaussian": 89.8096812800197,
+        "psnr_db": 44.91596649303272,
+        "ssim": 0.9948690533638
+      },
+      {
+        "pair": 32,
+        "point": "rp1",
+        "bytes": 8958634,
+        "bits_per_target_gaussian": 89.03886229546079,
+        "psnr_db": 46.250651896547716,
+        "ssim": 0.9969497472047806
+      },
+      {
+        "pair": 33,
+        "point": "rp1",
+        "bytes": 10808843,
+        "bits_per_target_gaussian": 90.5483157550829,
+        "psnr_db": 45.447915263175084,
+        "ssim": 0.9965912997722626
+      },
+      {
+        "pair": 34,
+        "point": "rp1",
+        "bytes": 7262218,
+        "bits_per_target_gaussian": 89.7207029681564,
+        "psnr_db": 44.03355901505638,
+        "ssim": 0.9952327758073807
+      },
+      {
+        "pair": 35,
+        "point": "rp1",
+        "bytes": 5311661,
+        "bits_per_target_gaussian": 95.81631028643456,
+        "psnr_db": 45.5458300761309,
+        "ssim": 0.9985849112272263
+      },
+      {
+        "pair": 36,
+        "point": "rp1",
+        "bytes": 9654042,
+        "bits_per_target_gaussian": 94.05077833402542,
+        "psnr_db": 44.16482612869371,
+        "ssim": 0.9966012090444565
+      },
+      {
+        "pair": 37,
+        "point": "rp1",
+        "bytes": 8929528,
+        "bits_per_target_gaussian": 86.1693780977804,
+        "psnr_db": 43.823200538206315,
+        "ssim": 0.9926859587430954
+      },
+      {
+        "pair": 38,
+        "point": "rp1",
+        "bytes": 14031049,
+        "bits_per_target_gaussian": 84.92227287789629,
+        "psnr_db": 40.96263255109225,
+        "ssim": 0.9942765831947327
+      },
+      {
+        "pair": 39,
+        "point": "rp1",
+        "bytes": 8399436,
+        "bits_per_target_gaussian": 91.27564651132465,
+        "psnr_db": 44.45096978491542,
+        "ssim": 0.996161088347435
+      },
+      {
+        "pair": 40,
+        "point": "rp1",
+        "bytes": 11759632,
+        "bits_per_target_gaussian": 88.42285644464704,
+        "psnr_db": 45.61259561228732,
+        "ssim": 0.9969411641359329
+      },
+      {
+        "pair": 41,
+        "point": "rp1",
+        "bytes": 10205215,
+        "bits_per_target_gaussian": 88.66784902455474,
+        "psnr_db": 45.77808107646398,
+        "ssim": 0.9971492290496826
+      },
+      {
+        "pair": 42,
+        "point": "rp1",
+        "bytes": 7185201,
+        "bits_per_target_gaussian": 90.16086393901607,
+        "psnr_db": 43.839679960596484,
+        "ssim": 0.9970539808273315
+      },
+      {
+        "pair": 43,
+        "point": "rp1",
+        "bytes": 6739333,
+        "bits_per_target_gaussian": 95.99915956810348,
+        "psnr_db": 44.57661570266857,
+        "ssim": 0.996474951505661
+      },
+      {
+        "pair": 44,
+        "point": "rp1",
+        "bytes": 12010497,
+        "bits_per_target_gaussian": 93.23445146002719,
+        "psnr_db": 43.77633506594224,
+        "ssim": 0.9968040436506271
+      },
+      {
+        "pair": 45,
+        "point": "rp1",
+        "bytes": 11436874,
+        "bits_per_target_gaussian": 96.43629112073536,
+        "psnr_db": 44.3748758114357,
+        "ssim": 0.9962543547153473
+      },
+      {
+        "pair": 46,
+        "point": "rp1",
+        "bytes": 6726511,
+        "bits_per_target_gaussian": 90.66203461905228,
+        "psnr_db": 44.656088976093976,
+        "ssim": 0.99653260409832
+      }
+    ]
+  },
+  "statistics": {
+    "cohort_pairs": 42,
+    "FlexGaussian": {
+      "prune_0.2_sh_0.3": {
+        "rate_bpg": 199.61208103299109,
+        "psnr_db": 35.56624794460658,
+        "ssim": 0.9598677491857892
+      },
+      "prune_0.4_sh_0.4": {
+        "rate_bpg": 120.73912299438092,
+        "psnr_db": 27.897456625889554,
+        "ssim": 0.8864540778810069
+      },
+      "prune_0.6_sh_0.4": {
+        "rate_bpg": 54.82111819057383,
+        "psnr_db": 22.037262459044005,
+        "ssim": 0.780054329384473
+      },
+      "prune_0.9_sh_0.1": {
+        "rate_bpg": 15.221107581317174,
+        "psnr_db": 14.287849708444108,
+        "ssim": 0.510218048376763
+      }
+    },
+    "GSCodec_rp1": {
+      "rate_bpg": 91.76701141666828,
+      "psnr_db": 45.11186720276109,
+      "ssim": 0.9964389024036271
+    },
+    "RevisitGS_FCGS_selected_middle": {
+      "rate_bpg": 89.39571477109484,
+      "psnr_db": 39.17135030206333,
+      "ssim": 0.9912662857345172
+    },
+    "RevisitGS_minus_FlexGaussian_matched_rate": {
+      "valid_pairs": 42,
+      "mean_psnr_db": 14.059451328135626,
+      "positive_pairs": 42,
+      "minimum_psnr_db": 3.7444414519326337,
+      "maximum_psnr_db": 23.369525660071492
+    },
+    "RevisitGS_minus_GSCodec_matched_rate": {
+      "valid_pairs": 42,
+      "mean_psnr_db": -5.482987674342028,
+      "positive_pairs": 0,
+      "minimum_psnr_db": -9.98345046035147,
+      "maximum_psnr_db": -1.9175718313277699
+    }
+  }
+}

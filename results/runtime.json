@@ -1,0 +1,66 @@
+{
+  "experiment": "representative runtime analysis",
+  "pairs": 3,
+  "encode_ratio": {
+    "mean": 1.4487939635930207,
+    "minimum": 1.4252783345348872,
+    "maximum": 1.4679252518910866
+  },
+  "decode_ratio": {
+    "mean": 1.1091824268400863,
+    "minimum": 1.0671077654610912,
+    "maximum": 1.1579482601243176
+  },
+  "dual_mode_encode_ratio": {
+    "mean": 2.4487939635930207,
+    "minimum": 2.425278334534887,
+    "maximum": 2.4679252518910864
+  },
+  "rows": [
+    {
+      "pair": 15,
+      "target_gaussians": 159298,
+      "reused_gaussians": 32850,
+      "conditional_encode_seconds": 3.706765631970484,
+      "fcgs_encode_seconds": 2.52517328603426,
+      "encode_ratio": 1.4679252518910866,
+      "dual_mode_encode_seconds": 6.231938918004744,
+      "dual_mode_encode_ratio": 2.4679252518910864,
+      "conditional_decode_seconds": 3.6812274140538648,
+      "fcgs_decode_seconds": 3.1790949050337076,
+      "decode_ratio": 1.1579482601243176,
+      "conditional_stream_bytes": 1831560,
+      "fcgs_stream_bytes": 1811222
+    },
+    {
+      "pair": 32,
+      "target_gaussians": 804919,
+      "reused_gaussians": 131099,
+      "conditional_encode_seconds": 8.5823757390026,
+      "fcgs_encode_seconds": 6.021543673996348,
+      "encode_ratio": 1.4252783345348872,
+      "dual_mode_encode_seconds": 14.603919412998948,
+      "dual_mode_encode_ratio": 2.425278334534887,
+      "conditional_decode_seconds": 8.680103145947214,
+      "fcgs_decode_seconds": 8.134232948999852,
+      "decode_ratio": 1.0671077654610912,
+      "conditional_stream_bytes": 8818104,
+      "fcgs_stream_bytes": 8741224
+    },
+    {
+      "pair": 22,
+      "target_gaussians": 1365237,
+      "reused_gaussians": 133782,
+      "conditional_encode_seconds": 12.912183274980634,
+      "fcgs_encode_seconds": 8.885477601957973,
+      "encode_ratio": 1.4531783043530886,
+      "dual_mode_encode_seconds": 21.797660876938608,
+      "dual_mode_encode_ratio": 2.4531783043530884,
+      "conditional_decode_seconds": 13.83379334496567,
+      "fcgs_decode_seconds": 12.547757891996298,
+      "decode_ratio": 1.1024912549348502,
+      "conditional_stream_bytes": 14783958,
+      "fcgs_stream_bytes": 14651402
+    }
+  ]
+}

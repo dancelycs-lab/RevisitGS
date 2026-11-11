@@ -1,0 +1,67 @@
+{
+  "experiment": "directional SH rank sensitivity with fixed transport and FCGS birth payload",
+  "pair": 0,
+  "transport_fraction": 0.5,
+  "rows": [
+    {
+      "rank": 1,
+      "full_rank": false,
+      "core_bytes": 627940,
+      "birth_bytes": 3448112,
+      "total_bytes": 4076052,
+      "mean_psnr_db": 40.09944767979035,
+      "mean_ssim": 0.9913472235202789,
+      "core_saving_vs_full_percent": 45.22925665161781,
+      "total_saving_vs_full_percent": 11.286031428198317,
+      "psnr_change_vs_full_db": -0.4233882115440224
+    },
+    {
+      "rank": 2,
+      "full_rank": false,
+      "core_bytes": 648916,
+      "birth_bytes": 3448112,
+      "total_bytes": 4097028,
+      "mean_psnr_db": 40.234256121067205,
+      "mean_ssim": 0.9916860461235046,
+      "core_saving_vs_full_percent": 43.39966925079024,
+      "total_saving_vs_full_percent": 10.829495494711184,
+      "psnr_change_vs_full_db": -0.2885797702671695
+    },
+    {
+      "rank": 4,
+      "full_rank": false,
+      "core_bytes": 692700,
+      "birth_bytes": 3448112,
+      "total_bytes": 4140812,
+      "mean_psnr_db": 40.34937905515891,
+      "mean_ssim": 0.9917802810668945,
+      "core_saving_vs_full_percent": 39.58070210939844,
+      "total_saving_vs_full_percent": 9.876550733469724,
+      "psnr_change_vs_full_db": -0.17345683617546115
+    },
+    {
+      "rank": 8,
+      "full_rank": false,
+      "core_bytes": 777420,
+      "birth_bytes": 3448112,
+      "total_bytes": 4225532,
+      "mean_psnr_db": 40.478045551457875,
+      "mean_ssim": 0.9919990301132202,
+      "core_saving_vs_full_percent": 32.191178625506765,
+      "total_saving_vs_full_percent": 8.032647020415274,
+      "psnr_change_vs_full_db": -0.044790339876499274
+    },
+    {
+      "rank": 45,
+      "full_rank": true,
+      "core_bytes": 1146488,
+      "birth_bytes": 3448112,
+      "total_bytes": 4594600,
+      "mean_psnr_db": 40.522835891334374,
+      "mean_ssim": 0.9921115338802338,
+      "core_saving_vs_full_percent": 0.0,
+      "total_saving_vs_full_percent": 0.0,
+      "psnr_change_vs_full_db": 0.0
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "dataset": "clsplats",
+  "name": "multi",
+  "camera": "0001",
+  "psnr": [
+    49.74108726238663,
+    50.14389200592294,
+    55.046357344087475,
+    54.59744560381452
+  ],
+  "comparison": "same backend setting; direct final-stream renders; full-view PSNR",
+  "stream_mib": [
+    1.2079591751098633,
+    1.1723546981811523,
+    1.51214599609375,
+    1.3730659484863281
+  ]
+}

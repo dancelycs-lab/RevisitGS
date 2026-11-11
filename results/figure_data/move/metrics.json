@@ -1,0 +1,18 @@
+{
+  "dataset": "clsplats",
+  "name": "move",
+  "camera": "0001",
+  "psnr": [
+    49.766653932560416,
+    50.203931646756885,
+    54.81131717072634,
+    54.112143027582135
+  ],
+  "comparison": "same backend setting; direct final-stream renders; full-view PSNR",
+  "stream_mib": [
+    1.2643461227416992,
+    1.2136049270629883,
+    1.5706005096435547,
+    1.4204416275024414
+  ]
+}

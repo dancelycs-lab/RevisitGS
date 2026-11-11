@@ -1,0 +1,1147 @@
+{
+  "experiment": "external multi-codec comparison",
+  "selector": {
+    "objective": "MSE + beta * bits per target Gaussian",
+    "beta": 4.232736869584208e-06
+  },
+  "backends": {
+    "FCGS": {
+      "clsplats_target": {
+        "intra": {
+          "mode": "intra",
+          "mean_rate_bpg": 107.04548923857901,
+          "mean_rate_change_percent": 0.0,
+          "mean_psnr_db": 49.52931645270512,
+          "mean_psnr_change_db": 0.0,
+          "mean_ssim": 0.9986499436199665,
+          "mean_ssim_change": 0.0,
+          "conditional_selections": 4,
+          "units": 4
+        },
+        "conditional": {
+          "mode": "conditional",
+          "mean_rate_bpg": 103.72400017795113,
+          "mean_rate_change_percent": -3.0941315245344048,
+          "mean_psnr_db": 50.343037773848714,
+          "mean_psnr_change_db": 0.8137213211435963,
+          "mean_ssim": 0.9988245032727718,
+          "mean_ssim_change": 0.00017455965280532837,
+          "conditional_selections": 4,
+          "units": 4
+        },
+        "selected": {
+          "mode": "selected",
+          "mean_rate_bpg": 103.72400017795113,
+          "mean_rate_change_percent": -3.0941315245344048,
+          "mean_psnr_db": 50.343037773848714,
+          "mean_psnr_change_db": 0.8137213211435963,
+          "mean_ssim": 0.9988245032727718,
+          "mean_ssim_change": 0.00017455965280532837,
+          "conditional_selections": 4,
+          "units": 4
+        }
+      },
+      "clsplats_captured": {
+        "intra": {
+          "mode": "intra",
+          "mean_rate_bpg": 107.04548923857901,
+          "mean_rate_change_percent": 0.0,
+          "mean_psnr_db": 32.567211750289154,
+          "mean_psnr_change_db": 0.0,
+          "mean_ssim": 0.9864400666952133,
+          "mean_ssim_change": 0.0,
+          "conditional_selections": 4,
+          "units": 4,
+          "views": 100
+        },
+        "conditional": {
+          "mode": "conditional",
+          "mean_rate_bpg": 103.72400017795113,
+          "mean_rate_change_percent": -3.0941315245344048,
+          "mean_psnr_db": 32.57433604575837,
+          "mean_psnr_change_db": 0.007124295469216655,
+          "mean_ssim": 0.9865422159433365,
+          "mean_ssim_change": 0.00010214924812316894,
+          "conditional_selections": 4,
+          "units": 4,
+          "views": 100
+        },
+        "selected": {
+          "mode": "selected",
+          "mean_rate_bpg": 103.72400017795113,
+          "mean_rate_change_percent": -3.0941315245344048,
+          "mean_psnr_db": 32.57433604575837,
+          "mean_psnr_change_db": 0.007124295469216655,
+          "mean_ssim": 0.9865422159433365,
+          "mean_ssim_change": 0.00010214924812316894,
+          "conditional_selections": 4,
+          "units": 4,
+          "views": 100
+        }
+      },
+      "scannet_target": {
+        "intra": {
+          "mode": "intra",
+          "mean_rate_bpg": 104.40612938922685,
+          "mean_rate_change_percent": 0.0,
+          "mean_psnr_db": 39.75358524962385,
+          "mean_psnr_change_db": 0.0,
+          "mean_ssim": 0.9886174649000168,
+          "mean_ssim_change": 0.0,
+          "conditional_selections": 1,
+          "units": 3
+        },
+        "conditional": {
+          "mode": "conditional",
+          "mean_rate_bpg": 103.57223830378116,
+          "mean_rate_change_percent": -0.7967142291132009,
+          "mean_psnr_db": 39.44663458146658,
+          "mean_psnr_change_db": -0.30695066815727046,
+          "mean_ssim": 0.986916626493136,
+          "mean_ssim_change": -0.0017008384068806965,
+          "conditional_selections": 1,
+          "units": 3
+        },
+        "selected": {
+          "mode": "selected",
+          "mean_rate_bpg": 104.17114123333162,
+          "mean_rate_change_percent": -0.22947591097615497,
+          "mean_psnr_db": 39.80976148460019,
+          "mean_psnr_change_db": 0.05617623497633417,
+          "mean_ssim": 0.9882489691178004,
+          "mean_ssim_change": -0.00036849578221638996,
+          "conditional_selections": 1,
+          "units": 3
+        }
+      },
+      "clsplats_rows": [
+        {
+          "name": "add",
+          "target_gaussians": 105649,
+          "selected_mode": "conditional",
+          "baseline": {
+            "scene": "Level-1/add",
+            "bitstream_bytes": 1386149,
+            "decoded_gaussians": 105649,
+            "mean_psnr_db": 49.59627036199417,
+            "median_psnr_db": 49.03098618738612,
+            "mean_ssim": 0.9988343417644501,
+            "views": [
+              {
+                "camera": "0001",
+                "psnr_db": 49.06796893556236,
+                "ssim": 0.9985044598579407
+              },
+              {
+                "camera": "0101",
+                "psnr_db": 48.99400343920988,
+                "ssim": 0.9988786578178406
+              },
+              {
+                "camera": "0197",
+                "psnr_db": 48.94977218044991,
+                "ssim": 0.9985784888267517
+              },
+              {
+                "camera": "0193",
+                "psnr_db": 51.37333689275452,
+                "ssim": 0.9993757605552673
+              }
+            ]
+          },
+          "conditional": {
+            "scene": "Level-1/add",
+            "bitstream_bytes": 1350628,
+            "decoded_gaussians": 105649,
+            "mean_psnr_db": 50.35750421375734,
+            "median_psnr_db": 49.86743767005416,
+            "mean_ssim": 0.9990057349205017,
+            "views": [
+              {
+                "camera": "0001",
+                "psnr_db": 49.851419510021096,
+                "ssim": 0.9987773895263672
+              },
+              {
+                "camera": "0101",
+                "psnr_db": 49.88345583008723,
+                "ssim": 0.9990105628967285
+              },
+              {
+                "camera": "0197",
+                "psnr_db": 49.68853556418591,
+                "ssim": 0.9987735152244568
+              },
+              {
+                "camera": "0193",
+                "psnr_db": 52.006605950735135,
+                "ssim": 0.9994614720344543
+              }
+            ]
+          }
+        },
+        {
+          "name": "delete",
+          "target_gaussians": 103110,
+          "selected_mode": "conditional",
+          "baseline": {
+            "scene": "Level-1/delete",
+            "bitstream_bytes": 1355027,
+            "decoded_gaussians": 103110,
+            "mean_psnr_db": 49.43212381818161,
+            "median_psnr_db": 48.98423793915696,
+            "mean_ssim": 0.9984902143478394,
+            "views": [
+              {
+                "camera": "0001",
+                "psnr_db": 49.366741357682784,
+                "ssim": 0.9983534812927246
+              },
+              {
+                "camera": "0101",
+                "psnr_db": 48.60173452063114,
+                "ssim": 0.9984461665153503
+              },
+              {
+                "camera": "0197",
+                "psnr_db": 47.60449411327621,
+                "ssim": 0.9977664947509766
+              },
+              {
+                "camera": "0193",
+                "psnr_db": 52.155525281136306,
+                "ssim": 0.9993947148323059
+              }
+            ]
+          },
+          "conditional": {
+            "scene": "Level-1/delete",
+            "bitstream_bytes": 1316365,
+            "decoded_gaussians": 103110,
+            "mean_psnr_db": 50.382517638538516,
+            "median_psnr_db": 49.88475632544422,
+            "mean_ssim": 0.9986706078052521,
+            "views": [
+              {
+                "camera": "0001",
+                "psnr_db": 50.266238074950735,
+                "ssim": 0.9985370635986328
+              },
+              {
+                "camera": "0101",
+                "psnr_db": 49.50327457593771,
+                "ssim": 0.99859619140625
+              },
+              {
+                "camera": "0197",
+                "psnr_db": 48.54428656349896,
+                "ssim": 0.9980543255805969
+              },
+              {
+                "camera": "0193",
+                "psnr_db": 53.216271339766664,
+                "ssim": 0.9994948506355286
+              }
+            ]
+          }
+        },
+        {
+          "name": "move",
+          "target_gaussians": 96738,
+          "selected_mode": "conditional",
+          "baseline": {
+            "scene": "Level-1/move",
+            "bitstream_bytes": 1325762,
+            "decoded_gaussians": 96738,
+            "mean_psnr_db": 49.73065118339673,
+            "median_psnr_db": 49.44518936420185,
+            "mean_ssim": 0.9987788200378418,
+            "views": [
+              {
+                "camera": "0001",
+                "psnr_db": 49.31588379803938,
+                "ssim": 0.998375415802002
+              },
+              {
+                "camera": "0101",
+                "psnr_db": 49.57449493036432,
+                "ssim": 0.9988896250724792
+              },
+              {
+                "camera": "0197",
+                "psnr_db": 48.77522675343985,
+                "ssim": 0.9985785484313965
+              },
+              {
+                "camera": "0193",
+                "psnr_db": 51.25699925174338,
+                "ssim": 0.9992716908454895
+              }
+            ]
+          },
+          "conditional": {
+            "scene": "Level-1/move",
+            "bitstream_bytes": 1272556,
+            "decoded_gaussians": 96738,
+            "mean_psnr_db": 50.50246534425275,
+            "median_psnr_db": 50.2372900353759,
+            "mean_ssim": 0.9989390522241592,
+            "views": [
+              {
+                "camera": "0001",
+                "psnr_db": 50.20513483455062,
+                "ssim": 0.9986445903778076
+              },
+              {
+                "camera": "0101",
+                "psnr_db": 50.26944523620118,
+                "ssim": 0.9989941716194153
+              },
+              {
+                "camera": "0197",
+                "psnr_db": 49.66243396031963,
+                "ssim": 0.9987549781799316
+              },
+              {
+                "camera": "0193",
+                "psnr_db": 51.872847345939554,
+                "ssim": 0.9993624687194824
+              }
+            ]
+          }
+        },
+        {
+          "name": "multi",
+          "target_gaussians": 93436,
+          "selected_mode": "conditional",
+          "baseline": {
+            "scene": "Level-1/multi",
+            "bitstream_bytes": 1266636,
+            "decoded_gaussians": 93436,
+            "mean_psnr_db": 49.35822044724796,
+            "median_psnr_db": 48.589435519980526,
+            "mean_ssim": 0.9984963983297348,
+            "views": [
+              {
+                "camera": "0001",
+                "psnr_db": 48.593092973465666,
+                "ssim": 0.9976521134376526
+              },
+              {
+                "camera": "0101",
+                "psnr_db": 48.58577806649539,
+                "ssim": 0.9987521171569824
+              },
+              {
+                "camera": "0197",
+                "psnr_db": 48.538401629525566,
+                "ssim": 0.9982869029045105
+              },
+              {
+                "camera": "0193",
+                "psnr_db": 51.71560911950521,
+                "ssim": 0.9992944598197937
+              }
+            ]
+          },
+          "conditional": {
+            "scene": "Level-1/multi",
+            "bitstream_bytes": 1229302,
+            "decoded_gaussians": 93436,
+            "mean_psnr_db": 50.12966389884625,
+            "median_psnr_db": 49.48192626938359,
+            "mean_ssim": 0.9986826181411743,
+            "views": [
+              {
+                "camera": "0001",
+                "psnr_db": 49.20688872619236,
+                "ssim": 0.9979391694068909
+              },
+              {
+                "camera": "0101",
+                "psnr_db": 49.542657542579356,
+                "ssim": 0.99886554479599
+              },
+              {
+                "camera": "0197",
+                "psnr_db": 49.42119499618782,
+                "ssim": 0.9985418319702148
+              },
+              {
+                "camera": "0193",
+                "psnr_db": 52.34791433042549,
+                "ssim": 0.9993839263916016
+              }
+            ]
+          }
+        }
+      ],
+      "scannet_rows": [
+        {
+          "name": "scene0596_02",
+          "target_gaussians": 275582,
+          "selected_mode": "intra",
+          "baseline": {
+            "scene": "scene0596_02",
+            "bitstream_bytes": 3597220,
+            "decoded_gaussians": 275582,
+            "mean_psnr_db": 40.00291165604216,
+            "median_psnr_db": 40.78024276841667,
+            "mean_ssim": 0.9919856637716293,
+            "views": [
+              {
+                "camera": "259",
+                "psnr_db": 35.364114620430975,
+                "ssim": 0.9828537106513977
+              },
+              {
+                "camera": "333",
+                "psnr_db": 41.20986310010947,
+                "ssim": 0.9954951405525208
+              },
+              {
+                "camera": "405",
+                "psnr_db": 40.35062243672387,
+                "ssim": 0.9945740699768066
+              },
+              {
+                "camera": "479",
+                "psnr_db": 43.087046466904305,
+                "ssim": 0.9950197339057922
+              }
+            ]
+          },
+          "conditional": {
+            "scene": "scene0596_02",
+            "bitstream_bytes": 3572035,
+            "decoded_gaussians": 275582,
+            "mean_psnr_db": 39.54088358238374,
+            "median_psnr_db": 40.59077407206104,
+            "mean_ssim": 0.9909625500440598,
+            "views": [
+              {
+                "camera": "259",
+                "psnr_db": 35.36407984807048,
+                "ssim": 0.9828538298606873
+              },
+              {
+                "camera": "333",
+                "psnr_db": 40.82605519900606,
+                "ssim": 0.9942391514778137
+              },
+              {
+                "camera": "405",
+                "psnr_db": 40.355492945116005,
+                "ssim": 0.9933459758758545
+              },
+              {
+                "camera": "479",
+                "psnr_db": 41.617906337342404,
+                "ssim": 0.9934112429618835
+              }
+            ]
+          }
+        },
+        {
+          "name": "scene0312_00",
+          "target_gaussians": 645427,
+          "selected_mode": "intra",
+          "baseline": {
+            "scene": "scene0312_00",
+            "bitstream_bytes": 8583444,
+            "decoded_gaussians": 645427,
+            "mean_psnr_db": 39.71139411013119,
+            "median_psnr_db": 40.675662505457524,
+            "mean_ssim": 0.9869313985109329,
+            "views": [
+              {
+                "camera": "657",
+                "psnr_db": 41.058323635832025,
+                "ssim": 0.9919357299804688
+              },
+              {
+                "camera": "759",
+                "psnr_db": 40.29300137508302,
+                "ssim": 0.9873943328857422
+              },
+              {
+                "camera": "864",
+                "psnr_db": 42.65084245390096,
+                "ssim": 0.9912422299385071
+              },
+              {
+                "camera": "966",
+                "psnr_db": 34.84340897570873,
+                "ssim": 0.9771533012390137
+              }
+            ]
+          },
+          "conditional": {
+            "scene": "scene0312_00",
+            "bitstream_bytes": 8497473,
+            "decoded_gaussians": 645427,
+            "mean_psnr_db": 39.08404147438879,
+            "median_psnr_db": 40.08435375998374,
+            "mean_ssim": 0.9839574843645096,
+            "views": [
+              {
+                "camera": "657",
+                "psnr_db": 40.0125501058072,
+                "ssim": 0.9883199334144592
+              },
+              {
+                "camera": "759",
+                "psnr_db": 40.156157414160276,
+                "ssim": 0.9868032932281494
+              },
+              {
+                "camera": "864",
+                "psnr_db": 41.173697091035365,
+                "ssim": 0.9862998127937317
+              },
+              {
+                "camera": "966",
+                "psnr_db": 34.99376128655231,
+                "ssim": 0.974406898021698
+              }
+            ]
+          }
+        },
+        {
+          "name": "scene0547_00",
+          "target_gaussians": 477312,
+          "selected_mode": "conditional",
+          "baseline": {
+            "scene": "scene0547_00",
+            "bitstream_bytes": 6109719,
+            "decoded_gaussians": 477312,
+            "mean_psnr_db": 39.54644998269822,
+            "median_psnr_db": 39.86369809980701,
+            "mean_ssim": 0.9869353324174881,
+            "views": [
+              {
+                "camera": "588",
+                "psnr_db": 39.40385314807464,
+                "ssim": 0.9885032773017883
+              },
+              {
+                "camera": "675",
+                "psnr_db": 40.32354305153938,
+                "ssim": 0.9859933853149414
+              },
+              {
+                "camera": "759",
+                "psnr_db": 40.35715585808511,
+                "ssim": 0.9869276881217957
+              },
+              {
+                "camera": "846",
+                "psnr_db": 38.10124787309374,
+                "ssim": 0.986316978931427
+              }
+            ]
+          },
+          "conditional": {
+            "scene": "scene0547_00",
+            "bitstream_bytes": 6067658,
+            "decoded_gaussians": 477312,
+            "mean_psnr_db": 39.71497868762722,
+            "median_psnr_db": 39.85415175725184,
+            "mean_ssim": 0.9858298450708389,
+            "views": [
+              {
+                "camera": "588",
+                "psnr_db": 39.259872243349804,
+                "ssim": 0.9880041480064392
+              },
+              {
+                "camera": "675",
+                "psnr_db": 40.448431271153886,
+                "ssim": 0.9844319224357605
+              },
+              {
+                "camera": "759",
+                "psnr_db": 40.70259144897829,
+                "ssim": 0.9854443073272705
+              },
+              {
+                "camera": "846",
+                "psnr_db": 38.44901978702691,
+                "ssim": 0.9854390025138855
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "L-GSC": {
+      "clsplats_target": {
+        "intra": {
+          "mode": "intra",
+          "mean_rate_bpg": 135.27881105822348,
+          "mean_rate_change_percent": 0.0,
+          "mean_psnr_db": 54.73435903863279,
+          "mean_psnr_change_db": 0.0,
+          "mean_ssim": 0.9995201230049133,
+          "mean_ssim_change": 0.0,
+          "conditional_selections": 4,
+          "units": 4
+        },
+        "conditional": {
+          "mode": "conditional",
+          "mean_rate_bpg": 122.81634500725964,
+          "mean_rate_change_percent": -9.211619215130737,
+          "mean_psnr_db": 54.73460727325617,
+          "mean_psnr_change_db": 0.00024823462337764113,
+          "mean_ssim": 0.9995160438120365,
+          "mean_ssim_change": -4.079192876815796e-06,
+          "conditional_selections": 4,
+          "units": 4
+        },
+        "selected": {
+          "mode": "selected",
+          "mean_rate_bpg": 122.81634500725964,
+          "mean_rate_change_percent": -9.211619215130737,
+          "mean_psnr_db": 54.73460727325617,
+          "mean_psnr_change_db": 0.00024823462337764113,
+          "mean_ssim": 0.9995160438120365,
+          "mean_ssim_change": -4.079192876815796e-06,
+          "conditional_selections": 4,
+          "units": 4
+        }
+      },
+      "clsplats_captured": {
+        "intra": {
+          "mode": "intra",
+          "mean_rate_bpg": 135.27881105822348,
+          "mean_rate_change_percent": 0.0,
+          "mean_psnr_db": 32.70436761793617,
+          "mean_psnr_change_db": 0.0,
+          "mean_ssim": 0.9871622037887573,
+          "mean_ssim_change": 0.0,
+          "conditional_selections": 4,
+          "units": 4,
+          "views": 100
+        },
+        "conditional": {
+          "mode": "conditional",
+          "mean_rate_bpg": 122.81634500725964,
+          "mean_rate_change_percent": -9.211619215130737,
+          "mean_psnr_db": 32.685747890299766,
+          "mean_psnr_change_db": -0.01861972763639365,
+          "mean_ssim": 0.9871373277902603,
+          "mean_ssim_change": -2.487599849700928e-05,
+          "conditional_selections": 4,
+          "units": 4,
+          "views": 100
+        },
+        "selected": {
+          "mode": "selected",
+          "mean_rate_bpg": 122.81634500725964,
+          "mean_rate_change_percent": -9.211619215130737,
+          "mean_psnr_db": 32.685747890299766,
+          "mean_psnr_change_db": -0.01861972763639365,
+          "mean_ssim": 0.9871373277902603,
+          "mean_ssim_change": -2.487599849700928e-05,
+          "conditional_selections": 4,
+          "units": 4,
+          "views": 100
+        }
+      },
+      "scannet_target": {
+        "intra": {
+          "mode": "intra",
+          "mean_rate_bpg": 145.30351675013824,
+          "mean_rate_change_percent": 0.0,
+          "mean_psnr_db": 41.827235823174156,
+          "mean_psnr_change_db": 0.0,
+          "mean_ssim": 0.9928623040517172,
+          "mean_ssim_change": 0.0,
+          "conditional_selections": 3,
+          "units": 3
+        },
+        "conditional": {
+          "mode": "conditional",
+          "mean_rate_bpg": 141.55319947262225,
+          "mean_rate_change_percent": -2.577019282933979,
+          "mean_psnr_db": 41.26058765696137,
+          "mean_psnr_change_db": -0.5666481662127841,
+          "mean_ssim": 0.9907391319672266,
+          "mean_ssim_change": -0.002123172084490458,
+          "conditional_selections": 3,
+          "units": 3
+        },
+        "selected": {
+          "mode": "selected",
+          "mean_rate_bpg": 141.55319947262225,
+          "mean_rate_change_percent": -2.577019282933979,
+          "mean_psnr_db": 41.26058765696137,
+          "mean_psnr_change_db": -0.5666481662127841,
+          "mean_ssim": 0.9907391319672266,
+          "mean_ssim_change": -0.002123172084490458,
+          "conditional_selections": 3,
+          "units": 3
+        }
+      },
+      "clsplats_rows": [
+        {
+          "name": "add",
+          "target_gaussians": 105649,
+          "selected_mode": "conditional",
+          "baseline": {
+            "scene": "Level-1/add",
+            "bitstream_bytes": 1783768,
+            "decoded_gaussians": 105649,
+            "mean_psnr_db": 54.720799017244985,
+            "median_psnr_db": 54.326498330157236,
+            "mean_ssim": 0.999549925327301,
+            "views": [
+              {
+                "camera": "0001",
+                "psnr_db": 54.46222174128273,
+                "ssim": 0.9994385838508606
+              },
+              {
+                "camera": "0101",
+                "psnr_db": 54.19077491903173,
+                "ssim": 0.9995033144950867
+              },
+              {
+                "camera": "0197",
+                "psnr_db": 54.128429843925076,
+                "ssim": 0.9995453357696533
+              },
+              {
+                "camera": "0193",
+                "psnr_db": 56.10176956474038,
+                "ssim": 0.9997124671936035
+              }
+            ]
+          },
+          "conditional": {
+            "scene": "Level-1/add",
+            "bitstream_bytes": 1624397,
+            "decoded_gaussians": 105649,
+            "mean_psnr_db": 54.65397016324049,
+            "median_psnr_db": 54.31079943913868,
+            "mean_ssim": 0.9995483011007309,
+            "views": [
+              {
+                "camera": "0001",
+                "psnr_db": 54.23030719823656,
+                "ssim": 0.9994442462921143
+              },
+              {
+                "camera": "0101",
+                "psnr_db": 54.3912916800408,
+                "ssim": 0.9994999766349792
+              },
+              {
+                "camera": "0197",
+                "psnr_db": 53.99933146157019,
+                "ssim": 0.9995341300964355
+              },
+              {
+                "camera": "0193",
+                "psnr_db": 55.9949503131144,
+                "ssim": 0.9997148513793945
+              }
+            ]
+          }
+        },
+        {
+          "name": "delete",
+          "target_gaussians": 103110,
+          "selected_mode": "conditional",
+          "baseline": {
+            "scene": "Level-1/delete",
+            "bitstream_bytes": 1728262,
+            "decoded_gaussians": 103110,
+            "mean_psnr_db": 54.983487934007655,
+            "median_psnr_db": 54.5819464096263,
+            "mean_ssim": 0.9995138198137283,
+            "views": [
+              {
+                "camera": "0001",
+                "psnr_db": 55.25255912172997,
+                "ssim": 0.9994983077049255
+              },
+              {
+                "camera": "0101",
+                "psnr_db": 53.91133369752262,
+                "ssim": 0.9994342923164368
+              },
+              {
+                "camera": "0197",
+                "psnr_db": 53.79980940646113,
+                "ssim": 0.9993856549263
+              },
+              {
+                "camera": "0193",
+                "psnr_db": 56.97024951031692,
+                "ssim": 0.999737024307251
+              }
+            ]
+          },
+          "conditional": {
+            "scene": "Level-1/delete",
+            "bitstream_bytes": 1570060,
+            "decoded_gaussians": 103110,
+            "mean_psnr_db": 54.89286583583563,
+            "median_psnr_db": 54.411881982156984,
+            "mean_ssim": 0.9995017051696777,
+            "views": [
+              {
+                "camera": "0001",
+                "psnr_db": 55.091882356437296,
+                "ssim": 0.9994804263114929
+              },
+              {
+                "camera": "0101",
+                "psnr_db": 53.731881607876666,
+                "ssim": 0.9994034171104431
+              },
+              {
+                "camera": "0197",
+                "psnr_db": 53.71711029168634,
+                "ssim": 0.9993719458580017
+              },
+              {
+                "camera": "0193",
+                "psnr_db": 57.0305890873422,
+                "ssim": 0.9997510313987732
+              }
+            ]
+          }
+        },
+        {
+          "name": "move",
+          "target_gaussians": 96738,
+          "selected_mode": "conditional",
+          "baseline": {
+            "scene": "Level-1/move",
+            "bitstream_bytes": 1646893,
+            "decoded_gaussians": 96738,
+            "mean_psnr_db": 54.46747273600349,
+            "median_psnr_db": 53.86005823931214,
+            "mean_ssim": 0.9995137602090836,
+            "views": [
+              {
+                "camera": "0001",
+                "psnr_db": 53.80311164676204,
+                "ssim": 0.999380350112915
+              },
+              {
+                "camera": "0101",
+                "psnr_db": 53.777981115884984,
+                "ssim": 0.9994563460350037
+              },
+              {
+                "camera": "0197",
+                "psnr_db": 53.91700483186224,
+                "ssim": 0.999483048915863
+              },
+              {
+                "camera": "0193",
+                "psnr_db": 56.3717933495047,
+                "ssim": 0.9997352957725525
+              }
+            ]
+          },
+          "conditional": {
+            "scene": "Level-1/move",
+            "bitstream_bytes": 1489440,
+            "decoded_gaussians": 96738,
+            "mean_psnr_db": 54.46137705277525,
+            "median_psnr_db": 54.003239165640935,
+            "mean_ssim": 0.9995072782039642,
+            "views": [
+              {
+                "camera": "0001",
+                "psnr_db": 53.885759875735374,
+                "ssim": 0.9993810057640076
+              },
+              {
+                "camera": "0101",
+                "psnr_db": 53.48170374588815,
+                "ssim": 0.999433696269989
+              },
+              {
+                "camera": "0197",
+                "psnr_db": 54.12071845554649,
+                "ssim": 0.9994663596153259
+              },
+              {
+                "camera": "0193",
+                "psnr_db": 56.357326133930954,
+                "ssim": 0.9997480511665344
+              }
+            ]
+          }
+        },
+        {
+          "name": "multi",
+          "target_gaussians": 93436,
+          "selected_mode": "conditional",
+          "baseline": {
+            "scene": "Level-1/multi",
+            "bitstream_bytes": 1585599,
+            "decoded_gaussians": 93436,
+            "mean_psnr_db": 54.76567646727504,
+            "median_psnr_db": 54.203167221707346,
+            "mean_ssim": 0.9995029866695404,
+            "views": [
+              {
+                "camera": "0001",
+                "psnr_db": 54.10227187658356,
+                "ssim": 0.9993202686309814
+              },
+              {
+                "camera": "0101",
+                "psnr_db": 54.23012071688034,
+                "ssim": 0.9994996190071106
+              },
+              {
+                "camera": "0197",
+                "psnr_db": 54.17621372653435,
+                "ssim": 0.9994473457336426
+              },
+              {
+                "camera": "0193",
+                "psnr_db": 56.554099549101934,
+                "ssim": 0.999744713306427
+              }
+            ]
+          },
+          "conditional": {
+            "scene": "Level-1/multi",
+            "bitstream_bytes": 1439763,
+            "decoded_gaussians": 93436,
+            "mean_psnr_db": 54.93021604117332,
+            "median_psnr_db": 54.377578345604,
+            "mean_ssim": 0.9995068907737732,
+            "views": [
+              {
+                "camera": "0001",
+                "psnr_db": 54.342049434301096,
+                "ssim": 0.9993411898612976
+              },
+              {
+                "camera": "0101",
+                "psnr_db": 54.413107256906905,
+                "ssim": 0.9995028376579285
+              },
+              {
+                "camera": "0197",
+                "psnr_db": 54.330468206234116,
+                "ssim": 0.9994226098060608
+              },
+              {
+                "camera": "0193",
+                "psnr_db": 56.63523926725113,
+                "ssim": 0.9997609257698059
+              }
+            ]
+          }
+        }
+      ],
+      "scannet_rows": [
+        {
+          "name": "scene0596_02",
+          "target_gaussians": 275582,
+          "selected_mode": "conditional",
+          "baseline": {
+            "scene": "scene0596_02",
+            "bitstream_bytes": 4942713,
+            "decoded_gaussians": 275582,
+            "mean_psnr_db": 42.50063139493238,
+            "median_psnr_db": 42.42999596772847,
+            "mean_ssim": 0.9958630204200745,
+            "views": [
+              {
+                "camera": "259",
+                "psnr_db": 41.45443808534148,
+                "ssim": 0.994605541229248
+              },
+              {
+                "camera": "333",
+                "psnr_db": 43.68809555893109,
+                "ssim": 0.9964086413383484
+              },
+              {
+                "camera": "405",
+                "psnr_db": 42.64944844210734,
+                "ssim": 0.9964780807495117
+              },
+              {
+                "camera": "479",
+                "psnr_db": 42.2105434933496,
+                "ssim": 0.9959598183631897
+              }
+            ]
+          },
+          "conditional": {
+            "scene": "scene0596_02",
+            "bitstream_bytes": 4854660,
+            "decoded_gaussians": 275582,
+            "mean_psnr_db": 42.02555770681302,
+            "median_psnr_db": 41.90749420219211,
+            "mean_ssim": 0.9947084784507751,
+            "views": [
+              {
+                "camera": "259",
+                "psnr_db": 41.45443808534148,
+                "ssim": 0.994605541229248
+              },
+              {
+                "camera": "333",
+                "psnr_db": 43.25451254648664,
+                "ssim": 0.9951095581054688
+              },
+              {
+                "camera": "405",
+                "psnr_db": 42.36055031904275,
+                "ssim": 0.9950825572013855
+              },
+              {
+                "camera": "479",
+                "psnr_db": 41.0327298763812,
+                "ssim": 0.9940362572669983
+              }
+            ]
+          }
+        },
+        {
+          "name": "scene0312_00",
+          "target_gaussians": 645427,
+          "selected_mode": "conditional",
+          "baseline": {
+            "scene": "scene0312_00",
+            "bitstream_bytes": 11723971,
+            "decoded_gaussians": 645427,
+            "mean_psnr_db": 41.603433839124996,
+            "median_psnr_db": 41.579109924919784,
+            "mean_ssim": 0.9917879998683929,
+            "views": [
+              {
+                "camera": "657",
+                "psnr_db": 41.32941600776664,
+                "ssim": 0.993432343006134
+              },
+              {
+                "camera": "759",
+                "psnr_db": 42.327290841034674,
+                "ssim": 0.991856038570404
+              },
+              {
+                "camera": "864",
+                "psnr_db": 41.82880384207293,
+                "ssim": 0.9920970797538757
+              },
+              {
+                "camera": "966",
+                "psnr_db": 40.928224665625734,
+                "ssim": 0.989766538143158
+              }
+            ]
+          },
+          "conditional": {
+            "scene": "scene0312_00",
+            "bitstream_bytes": 11347356,
+            "decoded_gaussians": 645427,
+            "mean_psnr_db": 40.8344242151401,
+            "median_psnr_db": 40.50956524207042,
+            "mean_ssim": 0.9884822070598602,
+            "views": [
+              {
+                "camera": "657",
+                "psnr_db": 40.45187354496078,
+                "ssim": 0.9897237420082092
+              },
+              {
+                "camera": "759",
+                "psnr_db": 42.02387444698268,
+                "ssim": 0.9911410212516785
+              },
+              {
+                "camera": "864",
+                "psnr_db": 40.567256939180055,
+                "ssim": 0.986893355846405
+              },
+              {
+                "camera": "966",
+                "psnr_db": 40.29469192943691,
+                "ssim": 0.9861707091331482
+              }
+            ]
+          }
+        },
+        {
+          "name": "scene0547_00",
+          "target_gaussians": 477312,
+          "selected_mode": "conditional",
+          "baseline": {
+            "scene": "scene0547_00",
+            "bitstream_bytes": 8777100,
+            "decoded_gaussians": 477312,
+            "mean_psnr_db": 41.37764223546509,
+            "median_psnr_db": 41.384352997597944,
+            "mean_ssim": 0.990935891866684,
+            "views": [
+              {
+                "camera": "588",
+                "psnr_db": 41.2843131753802,
+                "ssim": 0.9919463992118835
+              },
+              {
+                "camera": "675",
+                "psnr_db": 41.484392819815696,
+                "ssim": 0.9897139668464661
+              },
+              {
+                "camera": "759",
+                "psnr_db": 41.808511334803455,
+                "ssim": 0.9909054636955261
+              },
+              {
+                "camera": "846",
+                "psnr_db": 40.933351611861006,
+                "ssim": 0.9911777377128601
+              }
+            ]
+          },
+          "conditional": {
+            "scene": "scene0547_00",
+            "bitstream_bytes": 8536850,
+            "decoded_gaussians": 477312,
+            "mean_psnr_db": 40.92178104893099,
+            "median_psnr_db": 41.03542669635624,
+            "mean_ssim": 0.9890267103910446,
+            "views": [
+              {
+                "camera": "588",
+                "psnr_db": 41.02827105922213,
+                "ssim": 0.9913747906684875
+              },
+              {
+                "camera": "675",
+                "psnr_db": 41.04258233349035,
+                "ssim": 0.9872252345085144
+              },
+              {
+                "camera": "759",
+                "psnr_db": 41.18744389601132,
+                "ssim": 0.988278865814209
+              },
+              {
+                "camera": "846",
+                "psnr_db": 40.42882690700015,
+                "ssim": 0.9892279505729675
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

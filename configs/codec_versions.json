@@ -1,0 +1,39 @@
+{
+  "FCGS": {
+    "commit": "31e59a46f7e51505b46a7bbe6e53268ee3155fbf",
+    "weights_sha256": {
+      "checkpoint_0.0001.pkl": "2ea3665db07606eee495721e88f9e231c60397f6af3d52423a1022d0d0174185",
+      "checkpoint_0.0002.pkl": "95c6af0d260ea4d2f2aa922634dae8347f7fd051df8db770f8487d0b40c7cf97",
+      "checkpoint_0.0004.pkl": "73e1f643d0c7ab8583acdaeabaddf1c2b23d33203eafd6af64048f93c0107e2d",
+      "checkpoint_0.0008.pkl": "2a19e5608606f370084251f5665ba1939c5ebf6b474560ab428fe0ee81537c10",
+      "checkpoint_0.0016.pkl": "5b3ed1beadaf1f513551f3a9136879028cacde1ee20c211ed518edbb89a8e2c9"
+    }
+  },
+  "L-GSC": {
+    "commit": "a78ee6edeb17712d2b81936db41b9fd2bfac5b88"
+  },
+  "FlexGaussian": {
+    "repository": "https://github.com/Supercomputing-System-AI-Lab/FlexGaussian",
+    "commit": "16f7644735d539a90f51d0de18a9d8a9d697b397",
+    "purpose": "recent public fixed-map reference"
+  },
+  "GSCodec Studio": {
+    "repository": "https://github.com/JasonLSC/GSCodec_Studio",
+    "snapshot_note": "The evaluated public archive did not contain Git metadata.",
+    "file_sha256": {
+      "examples/codec_ply_sequence.py": "414c70fac3da1ff9f2db515faf16f8d74020798428b048817b9b61ddb98cb9e8",
+      "gsplat/compression/yuv_codec.py": "c8ddcc94e05d9683c3343e89f23d0e6e981662ae9f4ec00b415623fe3b851d51",
+      "README.md": "1733c233e597802ec33b317b4a82fa97c011f4eabe8a0ab34a1dffd434e6c433"
+    },
+    "purpose": "MPEG GSC intra anchor"
+  },
+  "splatreg": {
+    "commit": "c8f1c6de1680204ff15392f519947efab2426155",
+    "purpose": "optional encoder-side Sim(3) canonicalization and SH rotation"
+  },
+  "diff-gaussian-rasterization": {
+    "repository": "https://github.com/graphdeco-inria/diff-gaussian-rasterization",
+    "commit": "9c5c2028f6fbee2be239bc4c9421ff894fe4fbe0",
+    "purpose": "optional GPU rendering and image evaluation"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "dataset": "3rscan",
+  "name": "pair_23",
+  "camera": "frame-000000.color.jpg",
+  "psnr": [
+    38.46723981801847,
+    39.404897545493405,
+    47.018323105834554,
+    45.092797882400035
+  ],
+  "comparison": "same backend setting; direct final-stream renders; full-view PSNR",
+  "stream_mib": [
+    7.6415605545043945,
+    7.664922714233398,
+    10.048189163208008,
+    9.635466575622559
+  ]
+}

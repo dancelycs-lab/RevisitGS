@@ -1,0 +1,7 @@
+[
+  {
+    "name": "scene_000",
+    "source": "/path/to/scene_000/stored_map.ply",
+    "target": "/path/to/scene_000/aligned_revisit.ply"
+  }
+]
